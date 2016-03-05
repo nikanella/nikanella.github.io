@@ -1,0 +1,46 @@
+---
+title: Cinnamon Design
+---
+
+<!-- Start scroll navigation -->
+<div class="scroll-navigation">
+	<div class="scrollnav-table">
+    	<div class="scrollnav-tablecell">
+            <ul class="scrollnav">
+                <li><a href="#top" class="topscroll"><i class="fa fa-angle-up"></i></a></li>
+								<% home_page_projects.each do |project| %>
+									<li><a href="#<%= project.id %>"><i class="fa fa-circle"></i></a></li>
+								<% end %>
+                <li><a href="#footer" class="bottomscroll"><i class="fa fa-angle-down"></i></a></li>
+            </ul>
+       	</div>
+   	</div>
+</div>
+<!-- End scroll navigation -->
+
+<div class="body">
+    <section class="page-section portfolio-full-width margin-80" id="section1">
+				<% home_page_projects.each do |project| %>
+					<div class="portfolio-item caption-wrapper margin-60" id="<%= project.id %>">
+							<div class="caption-absolute-center">
+									<div class="caption-inner-center">
+										<h1><a title="<%= project.title %>" href="/projects/<%= project.path %>.html"><%= project.title %></a></h1>
+										<div class="categories-block">
+											<% project.categories.each_with_index do |category, index| %>
+												<a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><%= (index + 1 != project.categories.size) ? "," : "" %>
+											<% end %>
+										</div>
+									</div>
+							</div>
+						<div class="imgb">
+								<img alt="" src="<%= "/images/projects/#{project.id}/home.jpg" %>">
+							</div>
+					</div>
+				<% end %>
+    </section>
+
+    <div class="spacer-100"></div>
+    <div class="spacer-100"></div>
+
+    <%= partial "partials/footer" %>
+</div>

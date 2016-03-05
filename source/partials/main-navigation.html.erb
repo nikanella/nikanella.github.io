@@ -1,0 +1,35 @@
+<div class="main-navigation">
+    <nav class="navbar navbar-default menu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#custom-navigation" aria-expanded="false"></button>
+                <a class="navbar-brand" href="#"> <span>Menu</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="custom-navigation">
+            	<a class="close" href="#"><i class="ico-arrows-remove"></i></a>
+                <ul class="nav navbar-nav">
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="javascript:void(0)">Portfolio</a>
+                    	<ul class="dd">
+                          <% data.projects.list.each do |project| %>
+                            <li><a href="/projects/<%= project.path %>.html"><%= project.title %></a></li>
+                          <% end %>
+                        </ul>
+                    </li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+
+                <div class="author-info">
+                    <ul class="line-social-icons clearfix">
+                        <li><a href="#"><i class="ico-ecommerce-basket-check"></i></a></li>
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#"><i class="ico-basic-share"></i></a></li>
+                    </ul>
+                	<a href="/index.html" title="Deca"><img src="/images/footer_logo.png" alt="Deca"></a>
+                    <span>Deca Studio 2015</span>
+                    <span>All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,51 @@
+list:
+  - id: "plaisio-landing"
+    title: 'Wearables'
+    path: "plaisio-landing"
+    description: 'Wearables is a promo landing page we designed for the company "Plaisio Computers​".'
+    year: '2016'
+    client: 'Plaisio Computers SA'
+    categories:
+      - 'Website'
+
+  - id: "aggeladakis"
+    title: 'Aggeladakis'
+    path: "aggeladakis"
+    description: 'Aggeladakis is an importing company specialized in tiles, natural stones and sanitary ware. They are representatives of many premium Italian manufacturers. We designed the corporate identity, several print promotional items and the company website.'
+    year: '2016'
+    client: 'Aggeladakis'
+    categories:
+    - 'Identity'
+    - 'Website'
+
+  - id: "plaisio-service"
+    title: 'Plaisio Service'
+    path: "plaisio-service"
+    description: 'Plaisio Computers SA is a Greece-based company that assembles and trades PCs, telecommunication and office Equipment. The Company has three main segments of operation, product categories, namely: Office products, PCs and Digital Technology products, as well as Telecommunications products. In addition the Company has two more segments, the provision of service for the PCs and the provision of transportation services. Its products are distributed through a network of 23 stores in Greece and Bulgaria.
+We designed the service site of Plaisio Computers, a service which helps the customers repair their device quickly and effectively. We also did a photo ans video shooting of their facilities, in order to use it for the purposes of the website.'
+    year: '2015'
+    client: 'Plaisio Computers SA'
+    in collaboration with: 'George Skarmoutsos'
+    categories:
+      - 'Website'
+      - 'Audiovisual'
+
+  - id: "jal"
+    title: 'Jal Consulting'
+    path: "jal-consulting"
+    description: 'JAL Consulting is a unique consulting firm speciali​zed​ in coaching executives and their teams in producing breakthrough results. It includes executive coaching, business meetings, strategy development and implementation. Fiftypercentgray (alternative name of cinnamon.design) created three video testimonials. (~5 min. each)'
+    year: '2015'
+    client: 'JAL Consulting Ltd.'
+    in collaboration with: 'Dwra Belegrinou'
+    categories:
+      - 'Audiovisual'
+
+  - id: "mva"
+    title: 'MVA'
+    path: "mva"
+    description: 'Μaria Vidali Architect is based in Athens​. She​ carries out projects of different scale, which range from product design, furniture design, interior design, individual houses, commercial spaces, building refurbishment and landscape design, including research work. The website was designed and developed highlighting the three different design ​areas​. It includes a custom CMS, and a responsive interface.'
+    year: '2014'
+    client: 'Maria Vidali'
+    categories:
+      - 'Identity'
+      - 'Website'
