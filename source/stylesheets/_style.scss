@@ -1488,8 +1488,18 @@ html[xmlns] .slides {
 }
 .caption-wrapper .caption-wrapper .imgb, .caption-wrapper .imgb img{
 	width:100%;
-	max-width: 1200px;
 	height:auto;
+}
+
+.project-page .container {
+	max-width: 1200px;
+}
+
+.project-page .caption-wrapper .caption-wrapper .imgb,
+.project-page .caption-wrapper .imgb img{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 // .caption-wrapper:hover .caption-absolute-center, .caption-wrapper:hover .caption-left-bottom, .caption-wrapper:hover .caption-left-top, .caption-wrapper:hover .caption-bottom-center{
 // 	opacity:1;
