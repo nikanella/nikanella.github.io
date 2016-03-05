@@ -302,6 +302,15 @@ h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label{
 	display:block;
 	margin:30px auto;
 }
+
+.small-black-line-left:after{
+	content:'';
+	background:#000;
+	width:30px;
+	height:1px;
+	display:block;
+	margin:10px auto 20px 0;
+}
 .huge{
 	font-size:10em;
 }
@@ -1479,11 +1488,12 @@ html[xmlns] .slides {
 }
 .caption-wrapper .caption-wrapper .imgb, .caption-wrapper .imgb img{
 	width:100%;
+	max-width: 1200px;
 	height:auto;
 }
-.caption-wrapper:hover .caption-absolute-center, .caption-wrapper:hover .caption-left-bottom, .caption-wrapper:hover .caption-left-top, .caption-wrapper:hover .caption-bottom-center{
-	opacity:1;
-}
+// .caption-wrapper:hover .caption-absolute-center, .caption-wrapper:hover .caption-left-bottom, .caption-wrapper:hover .caption-left-top, .caption-wrapper:hover .caption-bottom-center{
+// 	opacity:1;
+// }
 
 .view-more{
 	text-align:center;
@@ -2337,7 +2347,6 @@ body{
 	padding:6px 8px;
 }
 .logo{
-	width:100px;
 	height:40px;
 	text-align:center;
 	display:inline-block;

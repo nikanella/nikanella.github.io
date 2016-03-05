@@ -3,17 +3,36 @@
 
 <div class="body">
     <!-- Start Page Header -->
-    <div class="page-header-light light-grey-bg padding-tb125 margin-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h1 class="page-title"><%= project.title %></h1>
-                    <h1 class="page-title-clone"><%= project.title %></h1>
-                </div>
-                <div class="col-md-5">
-                    <p class="page-title-description"><%= project.description %></p>
-                </div>
-            </div>
+    <div class="container">
+      <div class="col-md-6 margin-80" style="margin-top: 40px;">
+          <div class="caption-left-botto m">
+              <div class="caption-inne r">
+                  <h2 style="margin-bottom: 10px; position:relative; left: -4px;">
+                    <%= project.title %>
+                  </h2>
+                  <div style="font-weight: bold;">
+                  <% project.categories.each_with_index do |category, index| %>
+                    <a style="color: #000; font-size: 14px;" title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != project.categories.size) ? "," : "" %></span>
+                  <% end %>
+                  </div>
+                  <span class="small-black-line-left"></span>
+                  <p class="light-blue-text"><%= project.description %></p>
+                  <p class="light-blue-text">
+                  <% unless project.year.nil? %>
+                    <strong>Year:</strong> <%= project.year %><br/>
+                  <% end %>
+                  <% unless project.client.nil? %>
+                    <strong>Client:</strong> <%= project.client %><br/>
+                  <% end %>
+                  <% unless project.accosiates.nil? %>
+                    <strong>Accosiates:</strong> <%= project.accosiates %><br/>
+                  <% end %>
+                  <% unless project.developer.nil? %>
+                    <strong>Developed by:</strong> <%= project.developer %><br/>
+                  <% end %>
+                  </p>
+              </div>
+          </div>
         </div>
     </div>
     <!-- End Page Header -->
@@ -21,22 +40,10 @@
     <div>
         <div class="container">
             <% project_images(project.id).each do |imageSrc| %>
-            <section class="row margin-80">
+            <section class="row" style="margin-bottom: 1px;">
                 <div class="col-md-12">
-                    <div class="caption-left-bottom">
-                        <div class="caption-inner">
-                            <h2 class="small-red-line-left">Exocet Chair</h2>
-                            <p class="light-blue-text">Karimoku is a chair so designed that it can be assembelled<br> in less than a minute and is light.</p>
-                        </div>
-                    </div>
                     <!-- Start Text Block -->
                     <div class="caption-wrapper">
-                        <div class="caption-left-bottom overlay-white">
-                            <div class="caption-inner">
-                                <h2 class="small-red-line-left">Karimoku</h2>
-                                <p class="light-blue-text">Karimoku is a chair so designed that it can be assembelled<br> in less than a minute and is light.</p>
-                            </div>
-                        </div>
                         <div class="imgb"> <img src="<%= imageSrc %>" alt=""> </div>
                     </div>
                     <!-- End Text Block -->
@@ -44,25 +51,15 @@
             </section>
             <% end %>
 
-
+            <div class="spacer-100"></div>
             <hr class="fw">
             <section class="row margin-20" id="section3">
                 <div class="col-md-12">
-                	<h4>SIMILAR PROJECTS</h4>
+                	<h4>PORTFOLIO</h4>
                 </div>
-                <div class="col-md-6">
-                	<p>Karimoku is a chair so designed that can be assembelled in less than lorem ipsum doler sit amet adspicing elit till the domet.</p>
-                </div>
+              	<%= partial "partials/gallery" %>
             </section>
-            <div class="row margin-30">
-            	<div class="col-md-12"> <a href="#"><img src="http://placehold.it/1170x132&amp;text=IMAGE+PLACEHOLDER" alt=""></a> </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6"> <a href="#"><img src="http://placehold.it/570x132&amp;text=IMAGE+PLACEHOLDER" class="full-image" alt=""></a> </div>
-                <div class="col-md-6 col-sm-6"> <a href="#"><img src="http://placehold.it/570x132&amp;text=IMAGE+PLACEHOLDER" class="full-image" alt=""></a> </div>
-            </div>
         </div>
     </div>
     <div class="spacer-100"></div>
-    <%= partial "partials/footer" %>
 </div>

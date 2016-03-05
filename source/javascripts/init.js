@@ -284,11 +284,14 @@ var TEMPLATE = window.TEMPLATE || {};
 			  cssArrows: false,
 			  disableHI: true
 		});
-		$("#custom-navigation > ul > li:has(ul)").find("a:first").on("click", function(){
-			$(this).next('ul').toggle();
-		});
+
 		$("#custom-navigation > ul > li:has(ul)").find("a:first").append(" <i class='fa fa-angle-down'></i>");
 		$("#custom-navigation > ul > li > ul > li:has(ul)").find("a:first").append(" <i class='fa fa-angle-down'></i>");
+		$("#custom-navigation > ul > li:has(ul)").find("i").on("click", function(e){
+			e.stopPropagation();
+			e.preventDefault();
+			$(this).parent().next('ul').toggle();
+		});
 	}
 /* ==================================================
    Header Functions

@@ -7,5 +7,3 @@
 //= require init
 //= require jquery.flexslider
 //= require magnific-popup-min
-
-console.log("hello");

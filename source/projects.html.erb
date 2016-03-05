@@ -1,49 +1,5 @@
 <%= content_for(:title, "Projects") %>
 
 <div class="body">
-    <!-- Start Page Header -->
-    <div class="page-header-light light-grey-bg padding-tb125 margin-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h1 class="page-title">Work <br> We do</h1>
-                    <h1 class="page-title-clone">Work <br> We do</h1>
-                </div>
-                <div class="col-md-5">
-                	<p class="page-title-description">Beware! This can result in sleepless nights. We worked hard to acheive where we are today and we strive lorem ipsum doler sit amet adspicing.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Page Header -->
-    <!-- Start Gallery -->
-    <section class="container" id="section1">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="grid-filter text-align-center">
-                    <ul class="nav nav-pills sort-source" data-sort-id="gallery" data-option-key="filter">
-                        <li data-option-value="*" class="active"><a href="#"><span>All</span></a></li>
-                        <% categories.each do |category| %>
-                          <li data-option-value=".<%= category.downcase %>"><a href="#"><span><%= category %></span></a></li>
-                        <% end %>
-                    </ul>
-                </div>
-                <div class="sort-wrapper">
-                    <ul class="sort-destination grid-3-col gallery-items mfp-popup" data-sort-id="gallery">
-                        <% data.projects.list.each do |project| %>
-                          <li class="grid-item forat-image <%= project.categories.map(&:downcase).join(" ") %>">
-                            <div class="grid-item-inner"> <a href="/projects/<%= project.path %>.html" class="media-box"><img src="/images/projects/<%= project.id %>/thumb.jpg" alt=""> </a> </div>
-                          </li>
-                        <% end %>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Gallery -->
-
-    <div class="spacer-100"></div>
-    <div class="spacer-100"></div>
-
-    <= partial "partials/footer" %>
+    <%= partial "partials/gallery" %>
 </div>

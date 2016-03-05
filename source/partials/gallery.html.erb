@@ -1,0 +1,25 @@
+<!-- Start Gallery -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="grid-filter text-align-center">
+                <ul class="nav nav-pills sort-source" data-sort-id="gallery" data-option-key="filter">
+                    <li data-option-value="*" class="active"><a href="#"><span>All</span></a></li>
+                    <% categories.each do |category| %>
+                      <li data-option-value=".<%= category.downcase %>"><a href="#"><span><%= category %></span></a></li>
+                    <% end %>
+                </ul>
+            </div>
+            <div class="sort-wrapper">
+                <ul class="sort-destination grid-3-col gallery-items mfp-popup" data-sort-id="gallery">
+                    <% data.projects.list.each do |project| %>
+                      <li class="grid-item forat-image <%= project.categories.map(&:downcase).join(" ") %>">
+                        <div class="grid-item-inner"> <a href="/projects/<%= project.path %>.html" class="media-box"><img src="/images/projects/<%= project.id %>/thumb.jpg" alt=""> </a> </div>
+                      </li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Gallery -->
