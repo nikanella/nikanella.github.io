@@ -22,7 +22,7 @@ list:
 
   - id: "plaisio-service"
     title: 'Plaisio Service'
-    home_page_title_color: '#fff'
+    home_page_title_color: '#000'
     path: "plaisio-service"
     description: 'Plaisio Computers SA is a Greece-based company that assembles and trades PCs, telecommunication and office Equipment. The Company has three main segments of operation, product categories, namely: Office products, PCs and Digital Technology products, as well as Telecommunications products. In addition the Company has two more segments, the provision of service for the PCs and the provision of transportation services. Its products are distributed through a network of 23 stores in Greece and Bulgaria.
 We designed the service site of Plaisio Computers, a service which helps the customers repair their device quickly and effectively. We also did a photo ans video shooting of their facilities, in order to use it for the purposes of the website.'
@@ -54,3 +54,108 @@ We designed the service site of Plaisio Computers, a service which helps the cus
     categories:
       - 'Identity'
       - 'Website'
+
+  - id: "aggelos-giakis"
+    title: 'Aggelos Giakis'
+    home_page_title_color: '#fff'
+    path: "aggelos-giakis"
+    description: 'Aggelos Giakis is a technical office that covers a wide range of services including design and construction. We designed the corporate identity, several print promotional items and press ads.'
+    year: '2015'
+    client: 'Aggelos Giakis'
+    categories:
+      - 'Identity'
+
+  - id: "yogabudo"
+    title: 'Yoga & Budo Center'
+    home_page_title_color: '#fff'
+    path: "yogabudo"
+    description: 'The Yoga & Budo Center is one of the first organi​s​ed professional education efforts in the field of Yoga and Budo and it is based in Athens. ​​We developed the brand identity, the website design and a responsive interface. '
+    year: '2014'
+    client: 'Yoga & Budo Center'
+    categories:
+      - 'Identity'
+      - 'Website'
+
+  - id: "villabeat"
+    title: 'Villabeat'
+    home_page_title_color: '#fff'
+    path: "villabeat"
+    description: 'Villabeat is a Greek travel & tourism company based in Athens and regulated by the Greek National Tourism Organization. Villabeat provides high quality hospitality in five stars villas in Greece. We developed the website design, a Villa booking CMS, a Responsive Interface and a full page video background.'
+    year: '2014'
+    client: 'Yoga & Budo Center'
+    categories:
+      - 'Website'
+
+  - id: "cyd"
+    title: 'CYD'
+    home_page_title_color: '#fff'
+    path: "cyd"
+    description: 'CruiseYourDay is a new luxury cruising service. It offers a Full or Half Day services to the islands of the Argosaronic Gulf as well as Customized Itinerary upon request. We developed the website design, a Cruising booking CMS, a Responsive Interface and a full page video background.'
+    year: '2014'
+    client: 'Cruise Your Day'
+    categories:
+      - 'Website'
+
+  - id: "euruko2013"
+    title: 'Euruko2013'
+    home_page_title_color: '#fff'
+    path: "euruko2013"
+    description: 'Promotional product design for the annual European Ruby Conference. EuRuKo (the European Ruby Conference) is an annual conference which focuses on the Ruby programming language, with an informal atmosphere and lots of opportunities to listen, to talk, to hack, to have fun and where delegates experience distinct and insightful content from speakers of the highest calibre.Euruko2013 took place in Athens on the 28th and 29th of June 2013 at the Badminton Theater.'
+    year: '2013'
+    client: 'Euruko'
+    categories:
+      - 'Print'
+
+  - id: "atrium"
+    title: 'Atrium'
+    home_page_title_color: '#fff'
+    path: "atrium"
+    description: 'Atrium is a new greek bistrot, housed under the skylight of the Herodion Hotel, in the center of Athens.​ The project included brand identity design​ as well as several print applications such as dining, sous plat and an outdoor banner.'
+    year: '2015'
+    client: 'HP Hotels'
+    categories:
+      - 'Identity'
+      - 'Print'
+
+  - id: "mathsdance"
+    title: 'Mathsdance'
+    home_page_title_color: '#fff'
+    path: "mathsdance"
+    description: '
+Mathsdance is a creative project by Panorea Baka, researching the interaction and symbiotic relation between Mathematics and Dance as well as how maths educators can use creative movement to enrich their mathematics lessons and help students understand mathematical concepts in depth.​ The project included brand identity and design of promotional items.'
+    year: '2014'
+    client: 'Mathsdance'
+    categories:
+      - 'Identity'
+      - 'Print'
+
+  - id: "hotelkeeper"
+    title: 'Hotelkeeper'
+    home_page_title_color: '#fff'
+    path: "hotelkeeper"
+    description: 'We created a platform which aims to provide a viable and affordable technological solution to address all the challenges of online hotel marketing. The customer is able to manage all aspects of online hotel marketing via the Hotelkeeper platform.'
+    year: '2012'
+    client: 'Hotelkeeper'
+    categories:
+      - 'Identity'
+      - 'Website'
+
+  - id: "drones-landing"
+    title: 'Drones Landing Page'
+    home_page_title_color: '#fff'
+    path: "drones-landing"
+    description: ''
+    year: '2016'
+    client: 'Plaisio Computers'
+    categories:
+      - 'Website'
+
+  - id: "olp"
+    title: 'Museum of underwater antiquities'
+    home_page_title_color: '#fff'
+    path: "olp"
+    description: 'International Architectural Competition: Redesign of the existing cereals stock house building facilities (SILO) and its surrounding open space into a Museum for Underwater Antiquities and Regeneration of part of the Piraeus Port Authority (OLP) Coastal Zone - transformation into an open public space for outdoor activities.'
+    year: '2013'
+    client: 'Plaisio Computers'
+    categories:
+      - 'Architecture'
