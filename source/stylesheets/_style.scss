@@ -766,7 +766,41 @@ p.meta-data{
 	display:inline-block;
 	max-width:100%;
 	width:100%;
+	text-align: center;
 }
+
+.media-box h3 {
+	opacity: 0;
+	font-size: 2em;
+	position: relative;
+	top: 43%;
+	transition: opacity .3s ease-in-out;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index:3;
+	font-weight: normal;
+}
+
+.media-box:after{
+	z-index:2;
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	transition: opacity .3s ease-in-out;
+	opacity: 0;
+}
+
+.media-box:hover h3,
+.media-box:hover:after {
+	opacity: 1;
+}
+
 .format-gallery .media-box{
 	display:block;
 }

@@ -14,7 +14,12 @@
                 <ul class="sort-destination grid-3-col gallery-items mfp-popup" data-sort-id="gallery">
                     <% data.projects.list.each do |project| %>
                       <li class="grid-item forat-image <%= project.categories.map(&:downcase).join(" ") %>">
-                        <div class="grid-item-inner"> <a href="/projects/<%= project.path %>.html" class="media-box"><img src="/images/projects/<%= project.id %>/thumb.jpg" alt=""> </a> </div>
+                        <div class="grid-item-inner">
+                          <a href="/projects/<%= project.path %>.html" class="media-box">
+                            <img src="/images/projects/<%= project.id %>/thumb.jpg" alt="<%= project.title %>">
+                            <h3><%= project.thumbs_title %></h3>
+                          </a>
+                        </div>
                       </li>
                     <% end %>
                 </ul>

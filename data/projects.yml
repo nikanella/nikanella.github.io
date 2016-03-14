@@ -1,6 +1,7 @@
 list:
   - id: "plaisio-landing"
     title: 'Wearables'
+    thumbs_title: 'Wearables'
     home_page_title_color: '#fff'
     path: "plaisio-landing"
     description: 'Wearables is a promo landing page we designed for the company "Plaisio Computers​".'
@@ -12,6 +13,7 @@ list:
 
   - id: "aggeladakis"
     title: 'Aggeladakis'
+    thumbs_title: 'Aggeladakis'
     home_page_title_color: '#fff'
     path: "aggeladakis"
     description: 'Aggeladakis is an importing company specialized in tiles, natural stones and sanitary ware. They are representatives of many premium Italian manufacturers. We designed the corporate identity, several print promotional items and the company website.'
@@ -24,6 +26,7 @@ list:
 
   - id: "plaisio-service"
     title: 'Plaisio Service'
+    thumbs_title: 'Plaisio Service'
     home_page_title_color: '#000'
     path: "plaisio-service"
     description: 'Plaisio Computers SA is a Greece-based company that assembles and trades PCs, telecommunication and office Equipment. The Company has three main segments of operation, product categories, namely: Office products, PCs and Digital Technology products, as well as Telecommunications products. In addition the Company has two more segments, the provision of service for the PCs and the provision of transportation services. Its products are distributed through a network of 23 stores in Greece and Bulgaria.
@@ -38,6 +41,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "jal"
     title: 'Jal Consulting'
+    thumbs_title: 'Jal Consulting'
     home_page_title_color: '#000'
     path: "jal-consulting"
     description: 'JAL Consulting is a unique consulting firm speciali​zed​ in coaching executives and their teams in producing breakthrough results. It includes executive coaching, business meetings, strategy development and implementation. Fiftypercentgray (alternative name of cinnamon.design) created three video testimonials. (~5 min. each)'
@@ -50,6 +54,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "mva"
     title: 'MVA'
+    thumbs_title: 'MVA'
     home_page_title_color: '#fff'
     path: "mva"
     description: 'Μaria Vidali Architect is based in Athens​. She​ carries out projects of different scale, which range from product design, furniture design, interior design, individual houses, commercial spaces, building refurbishment and landscape design, including research work. The website was designed and developed highlighting the three different design ​areas​. It includes a custom CMS, and a responsive interface.'
@@ -62,6 +67,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "aggelos-giakis"
     title: 'Aggelos Giakis'
+    thumbs_title: 'Aggelos Giakis'
     home_page_title_color: '#fff'
     path: "aggelos-giakis"
     description: 'Aggelos Giakis is a technical office that covers a wide range of services including design and construction. We designed the corporate identity, several print promotional items and press ads.'
@@ -73,6 +79,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "yogabudo"
     title: 'Yoga & Budo Center'
+    thumbs_title: 'Yoga & Budo Center'
     home_page_title_color: '#fff'
     path: "yogabudo"
     description: 'The Yoga & Budo Center is one of the first organi​s​ed professional education efforts in the field of Yoga and Budo and it is based in Athens. ​​We developed the brand identity, the website design and a responsive interface. '
@@ -85,6 +92,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "villabeat"
     title: 'Villabeat'
+    thumbs_title: 'Villabeat'
     home_page_title_color: '#fff'
     path: "villabeat"
     description: 'Villabeat is a Greek travel & tourism company based in Athens and regulated by the Greek National Tourism Organization. Villabeat provides high quality hospitality in five stars villas in Greece. We developed the website design, a Villa booking CMS, a Responsive Interface and a full page video background.'
@@ -96,6 +104,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "cyd"
     title: 'CYD'
+    thumbs_title: 'CYD'
     home_page_title_color: '#fff'
     path: "cyd"
     description: 'CruiseYourDay is a new luxury cruising service. It offers a Full or Half Day services to the islands of the Argosaronic Gulf as well as Customized Itinerary upon request. We developed the website design, a Cruising booking CMS, a Responsive Interface and a full page video background.'
@@ -107,6 +116,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "euruko2013"
     title: 'Euruko2013'
+    thumbs_title: 'Euruko2013'
     home_page_title_color: '#fff'
     path: "euruko2013"
     description: 'Promotional product design for the annual European Ruby Conference. EuRuKo (the European Ruby Conference) is an annual conference which focuses on the Ruby programming language, with an informal atmosphere and lots of opportunities to listen, to talk, to hack, to have fun and where delegates experience distinct and insightful content from speakers of the highest calibre.Euruko2013 took place in Athens on the 28th and 29th of June 2013 at the Badminton Theater.'
@@ -118,6 +128,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "atrium"
     title: 'Atrium'
+    thumbs_title: 'Atrium'
     home_page_title_color: '#fff'
     path: "atrium"
     description: 'Atrium is a new greek bistrot, housed under the skylight of the Herodion Hotel, in the center of Athens.​ The project included brand identity design​ as well as several print applications such as dining, sous plat and an outdoor banner.'
@@ -130,6 +141,7 @@ We designed the service site of Plaisio Computers, a service which helps the cus
 
   - id: "mathsdance"
     title: 'Mathsdance'
+    thumbs_title: 'Mathsdance'
     home_page_title_color: '#fff'
     path: "mathsdance"
     description: '
@@ -143,6 +155,7 @@ Mathsdance is a creative project by Panorea Baka, researching the interaction an
 
   - id: "hotelkeeper"
     title: 'Hotelkeeper'
+    thumbs_title: 'Hotelkeeper'
     home_page_title_color: '#fff'
     path: "hotelkeeper"
     description: 'We created a platform which aims to provide a viable and affordable technological solution to address all the challenges of online hotel marketing. The customer is able to manage all aspects of online hotel marketing via the Hotelkeeper platform.'
@@ -155,6 +168,7 @@ Mathsdance is a creative project by Panorea Baka, researching the interaction an
 
   - id: "drones-landing"
     title: 'Drones Landing Page'
+    thumbs_title: 'Drones'
     home_page_title_color: '#fff'
     path: "drones-landing"
     description: ''
@@ -166,6 +180,7 @@ Mathsdance is a creative project by Panorea Baka, researching the interaction an
 
   - id: "olp"
     title: 'Museum of underwater antiquities'
+    thumbs_title: 'OLP Competition'
     home_page_title_color: '#fff'
     path: "olp"
     description: 'International Architectural Competition: Redesign of the existing cereals stock house building facilities (SILO) and its surrounding open space into a Museum for Underwater Antiquities and Regeneration of part of the Piraeus Port Authority (OLP) Coastal Zone - transformation into an open public space for outdoor activities.'
