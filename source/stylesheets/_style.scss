@@ -4519,6 +4519,10 @@ header-style-1.pricing-column.highlight h3 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.grid-item {
+	padding: 0.7px;
+}
+
 /* ==================================================
    7. Responsive Media Queries
 ================================================== */
@@ -4961,9 +4965,6 @@ header-style-1.pricing-column.highlight h3 {
 	}
 	.body{
 		padding-top:0!important;
-	}
-	.grid-item {
-		padding: 0.7px;
 	}
 	.grid-item .media-box{
 		display:block;
