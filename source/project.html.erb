@@ -17,20 +17,13 @@
                   </div>
                   <span class="small-black-line-left"></span>
                   <p class="light-blue-text"><%= project.description %></p>
-                  <p class="light-blue-text">
-                  <% unless project.year.nil? %>
-                    <strong>Year:</strong> <%= project.year %><br/>
+                  <% if project.metadata %>
+                    <p class="light-blue-text">
+                      <% project.metadata.each do |key, value| %>
+                      <strong><%= key.capitalize %>:</strong> <%= value %><br/>
+                      <% end %>
+                    </p>
                   <% end %>
-                  <% unless project.client.nil? %>
-                    <strong>Client:</strong> <%= project.client %><br/>
-                  <% end %>
-                  <% unless project.accosiates.nil? %>
-                    <strong>Accosiates:</strong> <%= project.accosiates %><br/>
-                  <% end %>
-                  <% unless project.developer.nil? %>
-                    <strong>Developed by:</strong> <%= project.developer %><br/>
-                  <% end %>
-                  </p>
               </div>
           </div>
         </div>
