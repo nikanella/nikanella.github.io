@@ -1,5 +1,5 @@
-<%= content_for(:title, project.title) %>
-<%= content_for(:description, project.description) %>
+<%= content_for(:title, project.title) if project.title %>
+<%= content_for(:description, project.description) if project.description %>
 
 <div class="body project-page">
     <!-- Start Page Header -->
@@ -16,7 +16,9 @@
                   <% end %>
                   </div>
                   <span class="small-black-line-left"></span>
+                  <% if project.description %>
                   <p class="light-blue-text"><%= project.description %></p>
+                  <% end %>
                   <% if project.metadata %>
                     <p class="light-blue-text">
                       <% project.metadata.each do |key, value| %>
