@@ -25,7 +25,6 @@ list:
       in collaboration with: 'George Skarmoutsos, George Biris'
     categories:
       - 'Website'
-      - 'Audiovisual'
 
   - id: "wearables-landing"
     title: 'Wearables'
@@ -192,7 +191,6 @@ list:
       in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou, Dora Belegrinou'
     categories:
       - 'Campaign'
-      - 'Audiovisual'
 
   - id: "jal"
     title: 'Jal Consulting'
@@ -209,7 +207,7 @@ list:
 
   - id: "fitpack"
     title: 'Fitpack'
-    thumbs_title: 'MVA'
+    thumbs_title: 'Fitpack'
     home_page_title_color: '#fff'
     path: "fitpack"
     metadata:
