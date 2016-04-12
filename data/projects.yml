@@ -113,19 +113,6 @@ list:
     categories:
       - 'Identity'
 
-  - id: "superstar"
-    title: 'Superstar'
-    thumbs_title: 'Superstar'
-    home_page_title_color: '#fff'
-    path: "superstar"
-    description: 'For the purpose of the superstar store opening, we developed an online campaign and a series of print and rich media ads including Video Prestitial, Interactive Skins and Animated Banners promoting the event.'
-    metadata:
-      year: '2015'
-      client: 'adidas originals'
-      in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou'
-    categories:
-      - 'Campaign'
-
   - id: "villabeat"
     title: 'Villabeat'
     thumbs_title: 'Villabeat'
@@ -139,22 +126,6 @@ list:
     categories:
       - 'Website'
       - 'Print'
-
-  - id: "therewillbehaters"
-    title: 'There will be haters'
-    thumbs_title: 'There will be haters'
-    home_page_title_color: '#fff'
-    path: "therewillbehaters"
-    description: 'In this campaign we added into the global creative line the iconic greek football players and developed a series of rich media ads including Video Prestitial, Interactive Skins and Animated Banners.'
-    metadata:
-      year: '2015'
-      client: 'adidas'
-      in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou'
-    categories:
-      - 'Campaign'
-      - 'Audiovisual'
-    videos:
-      - 'http://2fg.gr/assets/projects/therewillbehaters/05.mp4'
 
   - id: "qzine"
     title: 'Qzine'
@@ -181,19 +152,6 @@ list:
       - 'Identity'
       - 'Print'
 
-  - id: "zpump"
-    title: 'Zpump'
-    thumbs_title: 'Zpump'
-    home_page_title_color: '#fff'
-    path: "zpump"
-    description: 'For the ZPump Pump to Fit campaign we designed and developed a series of rich media ads including Video Prestitial, Skins and Animated Banners. '
-    metadata:
-      year: '2015'
-      client: 'Reebok'
-      in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou, Dora Belegrinou'
-    categories:
-      - 'Campaign'
-
   - id: "jal"
     title: 'Jal Consulting'
     thumbs_title: 'Jal Consulting'
@@ -210,20 +168,6 @@ list:
       - 'https://vimeo.com/89008035'
       - 'https://vimeo.com/89281529'
       - 'https://vimeo.com/89890942'
-
-  - id: "fitpack"
-    title: 'Fitpack'
-    thumbs_title: 'Fitpack'
-    home_page_title_color: '#fff'
-    path: "fitpack"
-    metadata:
-      year: '2014'
-      client: 'Reebok'
-      in collaboration with: 'Dora Belegrinou'
-    categories:
-      - 'Audiovisual'
-    videos:
-      - 'http://2fg.gr/assets/projects/fitpack/01.mp4'
 
   - id: "mva"
     title: 'MVA'
