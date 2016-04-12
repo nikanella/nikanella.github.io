@@ -34,7 +34,7 @@ end
 # Methods defined in the helpers block are available in templates
 helpers do
   def categories
-    data.projects.list.map(&:categories).flatten.uniq
+    data.projects.list.map(&:categories).flatten.uniq.sort
   end
 
   def home_page_projects

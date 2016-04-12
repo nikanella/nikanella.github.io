@@ -1,0 +1,35 @@
+<%= content_for(:title, 'Cinnamon Design') %>
+
+<div class="body about-page">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+            <h1>About</h1>
+            <p>Cinnamon.design is a design practice based in Athens, founded by Nikoletta Kanellou.</p>
+            <p>Nikoletta is an architect and designer. She graduated from the NTUA School of Architecture (2008) and has an MA in Digital Arts, from the Athens School of Fine Arts (2011).</p>
+            <p>After working as a freelance architect for a few years she got involved with video, graphic- and web-design.</p>
+            <p>She has received distinction for her architectural and multimedia work which has also been presented in several architectural and artistic exhibitions. As a team member, she received the "Best project of the years 2009-2013" award from DOMÉS International Review of Architecture.</p>
+            <p>She is passionate about all aspects of design, especially through digital channels, and is always motivated to materialize ideas and respond to any challenge.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Services</h3>
+          <ul>
+            <% categories.sort.each do |category| %>
+              <li><%= link_to category, "/projects.html##{category.downcase}" %></li>
+            <% end %>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Press</h3>
+          <ul>
+            <% data.press.list.sort{|x,y| x.name <=> y.name } .each do |entry| %>
+              <li><%= link_to entry.name, entry.link %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+      <div class="spacer-100"></div>
+  </div>
+</div>
