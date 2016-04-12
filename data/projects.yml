@@ -153,6 +153,8 @@ list:
     categories:
       - 'Campaign'
       - 'Audiovisual'
+    videos:
+      - 'http://2fg.gr/assets/projects/therewillbehaters/05.mp4'
 
   - id: "qzine"
     title: 'Qzine'
@@ -204,6 +206,10 @@ list:
       in collaboration with: 'Dora Belegrinou'
     categories:
       - 'Audiovisual'
+    videos:
+      - 'https://vimeo.com/89008035'
+      - 'https://vimeo.com/89281529'
+      - 'https://vimeo.com/89890942'
 
   - id: "fitpack"
     title: 'Fitpack'
@@ -216,6 +222,8 @@ list:
       in collaboration with: 'Dora Belegrinou'
     categories:
       - 'Audiovisual'
+    videos:
+      - 'http://2fg.gr/assets/projects/fitpack/01.mp4'
 
   - id: "mva"
     title: 'MVA'
@@ -296,6 +304,8 @@ list:
     categories:
       - 'Print'
       - 'Audiovisual'
+    videos:
+      - 'https://vimeo.com/67073706'
 
   - id: "gika"
     title: 'Residential building in Filopappou hill'
