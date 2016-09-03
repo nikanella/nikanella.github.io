@@ -10,7 +10,6 @@ list:
       client: ' Aggeladakis material concept'
     categories:
     - 'Identity'
-    - 'Print'
     - 'Website'
 
   - id: "plaisio-service"
@@ -76,7 +75,6 @@ list:
       in collaboration with: 'Peggy Vlassi'
     categories:
       - 'Architecture'
-      - 'Print'
 
   - id: "surface-landing"
     title: 'Surface'
@@ -125,7 +123,6 @@ list:
       in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou'
     categories:
       - 'Website'
-      - 'Print'
 
   - id: "qzine"
     title: 'Qzine'
@@ -150,7 +147,6 @@ list:
       in collaboration with: 'George Skarmoutsos'
     categories:
       - 'Identity'
-      - 'Print'
 
   - id: "jal"
     title: 'Jal Consulting'
@@ -246,7 +242,6 @@ list:
       year: '2013'
       client: 'Euruko'
     categories:
-      - 'Print'
       - 'Audiovisual'
     videos:
       - 'https://vimeo.com/67073706'
@@ -276,20 +271,6 @@ list:
       client: 'Mathsdance'
     categories:
       - 'Identity'
-      - 'Print'
-
-  - id: "hotelkeeper"
-    title: 'Hotelkeeper'
-    thumbs_title: 'Hotelkeeper'
-    home_page_title_color: '#fff'
-    path: "hotelkeeper"
-    description: 'We created a platform which aims to provide a viable and affordable technological solution to address all the challenges of online hotel marketing. The customer is able to manage all aspects of online hotel marketing via the Hotelkeeper platform.'
-    metadata:
-      year: '2012'
-      client: 'Hotelkeeper'
-    categories:
-      - 'Identity'
-      - 'Website'
 
   - id: "faliro"
     title: 'Residence in Palaio Faliro'
