@@ -110,10 +110,15 @@ a > img {
 .gray-text{
 	color:#CDCBCB;
 }
-.light-blue-text{
+.light-blue-text {
 	color:#66757f;
 	line-height:30px;
 }
+
+.light-blue-text a {
+	text-decoration: underline;
+}
+
 .white-text{
 	color:#FFF !important;
 }
