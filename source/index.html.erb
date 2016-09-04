@@ -1,41 +1,25 @@
----
-title: Cinnamon Design
----
+<%= content_for(:title, 'Cinnamon Design') %>
+<%= content_for(:description, 'Cinnamon.design is a design studio based in Athens, founded by Nikoletta Kanellou.') %>
 
-<!-- Start scroll navigation -->
-<div class="scroll-navigation">
-	<div class="scrollnav-table">
-    	<div class="scrollnav-tablecell">
-            <ul class="scrollnav">
-                <li><a href="#top" class="topscroll"><i class="fa fa-angle-up"></i></a></li>
-								<% home_page_projects.each do |project| %>
-									<li><a href="#<%= project.id %>"><i class="fa fa-circle"></i></a></li>
-								<% end %>
-                <li><a href="#footer" class="bottomscroll"><i class="fa fa-angle-down"></i></a></li>
-            </ul>
-       	</div>
-   	</div>
-</div>
-<!-- End scroll navigation -->
-
-<div class="body">
-    <section class="page-section portfolio-full-width margin-80" id="section1">
-				<% home_page_projects.each do |project| %>
-					<div class="portfolio-item caption-wrapper margin-60" id="<%= project.id %>">
-							<div class="caption-absolute-center">
-									<div class="caption-inner-center">
-										<h1><a title="<%= project.title %>" href="/projects/<%= project.path %>.html" style="color: <%= project.home_page_title_color %>"><%= project.title %></a></h1>
-										<div class="categories-block">
-											<% project.categories.each_with_index do |category, index| %>
-												<a style="color: <%= project.home_page_title_color %>" title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span style="color: <%= project.home_page_title_color %>"><%= (index + 1 != project.categories.size) ? "," : "" %></span>
-											<% end %>
-										</div>
+<div class="scroll-navigation"></div>
+<div class="body home-body">
+    <section class="page-section portfolio-full-width">
+				<div class="portfolio-item caption-wrapper margin-60">
+						<div class="caption-absolute-center">
+								<div class="caption-inner-center home-page-header">
+									<h1>
+										Hi! I'm Nikoletta.
+									</h1>
+									<h2>
+										Here you can find a sample of my <a href="/projects.html">work</a>.
+									</h2>
+									<div class="categories-block">
+										<% categories.each_with_index do |category, index| %>
+											<a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
+										<% end %>
 									</div>
-							</div>
-						<div class="imgb">
-								<img alt="" src="<%= "/images/projects/#{project.id}/home.jpg" %>">
-							</div>
-					</div>
-				<% end %>
+								</div>
+						</div>
+				</div>
     </section>
 </div>
