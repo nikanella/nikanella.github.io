@@ -3,12 +3,8 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
-
     <title><%= yield_content(:title) ? "#{yield_content(:title)} | Cinnamon Design" : "Cinnamon Design" %></title>
-
     <meta name="description" content="<%= yield_content(:description) %>">
-
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
     <%= stylesheet_link_tag :site %>
