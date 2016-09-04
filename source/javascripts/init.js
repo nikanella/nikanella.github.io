@@ -4,43 +4,6 @@ jQuery(function($){
 var TEMPLATE = window.TEMPLATE || {};
 
 /* ==================================================
-	Contact Form Validations
-================================================== */
-	TEMPLATE.ContactForm = function(){
-		$('.contact-form').each(function(){
-			var formInstance = $(this);
-			formInstance.submit(function(){
-
-			var action = $(this).attr('action');
-
-			$("#message").slideUp(750,function() {
-			$('#message').hide();
-
-			$('#submit')
-				.after('<img src="images/assets/ajax-loader.gif" class="loader" />')
-				.attr('disabled','disabled');
-
-			$.post(action, {
-				name: $('#name').val(),
-				email: $('#email').val(),
-				subject: $('#subject').val(),
-				comments: $('#comments').val()
-			},
-				function(data){
-					document.getElementById('message').innerHTML = data;
-					$('#message').slideDown('slow');
-					$('.contact-form img.loader').fadeOut('slow',function(){$(this).remove()});
-					$('#submit').removeAttr('disabled');
-					if(data.match('success') != null) $('.contact-form').slideUp('slow');
-
-				}
-			);
-			});
-			return false;
-		});
-		});
-	}
-/* ==================================================
 	Scroll to Top
 ================================================== */
 	TEMPLATE.scrollToTop = function(){
@@ -70,26 +33,7 @@ var TEMPLATE = window.TEMPLATE || {};
 			}
 		}, 250);
 	}
-/* ==================================================
-   Accordion
-================================================== */
-	TEMPLATE.accordion = function(){
-		var accordion_trigger = $('.accordion-heading.accordionize');
 
-		accordion_trigger.delegate('.accordion-toggle','click', function(event){
-			if($(this).hasClass('active')){
-				$(this).removeClass('active');
-				$(this).addClass('inactive');
-			}
-			else{
-				accordion_trigger.find('.active').addClass('inactive');
-				accordion_trigger.find('.active').removeClass('active');
-				$(this).removeClass('inactive');
-				$(this).addClass('active');
-			}
-			event.preventDefault();
-		});
-	}
 /* ==================================================
    Toggle
 ================================================== */
@@ -106,171 +50,6 @@ var TEMPLATE = window.TEMPLATE || {};
 				$(this).addClass('active');
 			}
 			event.preventDefault();
-		});
-	}
-/* ==================================================
-   Tooltip
-================================================== */
-	TEMPLATE.toolTip = function(){
-		$('a[data-toggle=tooltip]').tooltip();
-		$('a[data-toggle=tooltip]').tooltip();
-		$('a[data-toggle=popover]').popover({html:true}).on("click", function(e) {
-       		e.preventDefault();
-       		$(this).focus();
-		});
-	}
-/* ==================================================
-   Hero Flex Slider
-================================================== */
-	TEMPLATE.heroflex = function() {
-
-		$('.flexslider').each(function(){
-				var carouselInstance = $(this);
-				var carouselAutoplay = carouselInstance.attr("data-autoplay") == 'yes' ? true : false
-				var carouselPagination = carouselInstance.attr("data-pagination") == 'yes' ? true : false
-				var carouselArrows = carouselInstance.attr("data-arrows") == 'yes' ? true : false
-				var carouselDirection = carouselInstance.attr("data-direction") ? carouselInstance.attr("data-direction") : "horizontal"
-				var carouselStyle = carouselInstance.attr("data-style") ? carouselInstance.attr("data-style") : "fade"
-				var carouselSpeed = carouselInstance.attr("data-speed") ? carouselInstance.attr("data-speed") : "5000"
-				var carouselPause = carouselInstance.attr("data-pause") == 'yes' ? true : false
-
-				carouselInstance.flexslider({
-					animation: carouselStyle,
-					easing: "swing",
-					direction: carouselDirection,
-					slideshow: carouselAutoplay,
-					slideshowSpeed: carouselSpeed,
-					animationSpeed: 600,
-					initDelay: 0,
-					randomize: false,
-					pauseOnHover: carouselPause,
-					controlNav: carouselPagination,
-					//directionNav: carouselArrows,
-					prevText: "",
-					nextText: ""
-				});
-		});
-	}
-/* ==================================================
-   Text Flex Slider
-================================================== */
-	TEMPLATE.textflex = function() {
-
-		$('.textflexslider').each(function(){
-				var carouselInstance = $(this);
-				var carouselAutoplay = carouselInstance.attr("data-autoplay") == 'yes' ? true : false
-				var carouselPagination = carouselInstance.attr("data-pagination") == 'yes' ? true : false
-				var carouselArrows = carouselInstance.attr("data-arrows") == 'yes' ? true : false
-				var carouselDirection = carouselInstance.attr("data-direction") ? carouselInstance.attr("data-direction") : "horizontal"
-				var carouselStyle = carouselInstance.attr("data-style") ? carouselInstance.attr("data-style") : "fade"
-				var carouselSpeed = carouselInstance.attr("data-speed") ? carouselInstance.attr("data-speed") : "5000"
-				var carouselPause = carouselInstance.attr("data-pause") == 'yes' ? true : false
-
-				carouselInstance.flexslider({
-					animation: carouselStyle,
-					easing: "swing",
-					direction: carouselDirection,
-					slideshow: carouselAutoplay,
-					slideshowSpeed: carouselSpeed,
-					animationSpeed: 600,
-					initDelay: 0,
-					randomize: false,
-					pauseOnHover: carouselPause,
-					controlNav: carouselPagination,
-					//directionNav: carouselArrows,
-					prevText: "",
-					nextText: "",
-					start:function(slider){
-						$(".slide-current-slide").text("0"+(slider.currentSlide+1)+"/");
-						$(".slide-total-slides").text("0"+slider.count);
-					},
-					before:function(slider){
-						$(".slide-current-slide").text("0"+(slider.animatingTo+1)+"/");
-					}
-
-				});
-
-		});
-	}
-/* ==================================================
-   Flex Slider
-================================================== */
-	TEMPLATE.galleryflex = function() {
-		$('.galleryflex').each(function(){
-				var carouselInstance = $(this);
-				var carouselAutoplay = carouselInstance.attr("data-autoplay") == 'yes' ? true : false
-				var carouselPagination = carouselInstance.attr("data-pagination") == 'yes' ? true : false
-				var carouselArrows = carouselInstance.attr("data-arrows") == 'yes' ? true : false
-				var carouselDirection = carouselInstance.attr("data-direction") ? carouselInstance.attr("data-direction") : "horizontal"
-				var carouselStyle = carouselInstance.attr("data-style") ? carouselInstance.attr("data-style") : "fade"
-				var carouselSpeed = carouselInstance.attr("data-speed") ? carouselInstance.attr("data-speed") : "5000"
-				var carouselPause = carouselInstance.attr("data-pause") == 'yes' ? true : false
-
-				carouselInstance.flexslider({
-					animation: carouselStyle,
-					easing: "swing",
-					direction: carouselDirection,
-					slideshow: carouselAutoplay,
-					slideshowSpeed: carouselSpeed,
-					animationSpeed: 600,
-					initDelay: 0,
-					randomize: false,
-					pauseOnHover: carouselPause,
-					controlNav: carouselPagination,
-					directionNav: carouselArrows,
-					prevText: "",
-					nextText: ""
-				});
-		});
-	}
-/* ==================================================
-   Owl Carousel
-================================================== */
-	TEMPLATE.OwlCarousel = function() {
-		$('.owl-carousel').each(function(){
-				var carouselInstance = $(this);
-				var carouselColumns = carouselInstance.attr("data-columns") ? carouselInstance.attr("data-columns") : "1"
-				var carouselitemsDesktop = carouselInstance.attr("data-items-desktop") ? carouselInstance.attr("data-items-desktop") : "4"
-				var carouselitemsDesktopSmall = carouselInstance.attr("data-items-desktop-small") ? carouselInstance.attr("data-items-desktop-small") : "3"
-				var carouselitemsTablet = carouselInstance.attr("data-items-tablet") ? carouselInstance.attr("data-items-tablet") : "2"
-				var carouselitemsMobile = carouselInstance.attr("data-items-mobile") ? carouselInstance.attr("data-items-mobile") : "1"
-				var carouselAutoplay = carouselInstance.attr("data-autoplay") ? carouselInstance.attr("data-autoplay") : false
-				var carouselPagination = carouselInstance.attr("data-pagination") == 'yes' ? true : false
-				var carouselArrows = carouselInstance.attr("data-arrows") == 'yes' ? true : false
-				var carouselSingle = carouselInstance.attr("data-single-item") == 'yes' ? true : false
-				var carouselStyle = carouselInstance.attr("data-style") ? carouselInstance.attr("data-style") : "fade"
-
-				carouselInstance.owlCarousel({
-					items: carouselColumns,
-					autoPlay : carouselAutoplay,
-					navigation : carouselArrows,
-					pagination : carouselPagination,
-					itemsDesktop:[1199,carouselitemsDesktop],
-					itemsDesktopSmall:[979,carouselitemsDesktopSmall],
-					itemsTablet:[768,carouselitemsTablet],
-					itemsMobile:[479,carouselitemsMobile],
-					singleItem:carouselSingle,
-					navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-					stopOnHover: true,
-					lazyLoad: true,
-					transitionStyle: 'carouselStyle'
-				});
-		});
-	}
-/* ==================================================
-   Animated Counters
-================================================== */
-	TEMPLATE.Counters = function() {
-		$('.counters').each(function () {
-			$(".timer .count").appear(function() {
-			var counter = $(this).html();
-			$(this).countTo({
-				from: 0,
-				to: counter,
-				speed: 2000,
-				refreshInterval: 60
-				});
-			});
 		});
 	}
 /* ==================================================
@@ -365,38 +144,16 @@ var TEMPLATE = window.TEMPLATE || {};
 			}
 		});
 	}
-/* ==================================================
-   Pricing Tables
-================================================== */
-	var $tallestCol;
-	TEMPLATE.pricingTable = function(){
-		$('.pricing-table').each(function(){
-			$tallestCol = 0;
-			$(this).find('> div .features').each(function(){
-				($(this).height() > $tallestCol) ? $tallestCol = $(this).height() : $tallestCol = $tallestCol;
-			});
-			if($tallestCol == 0) $tallestCol = 'auto';
-			$(this).find('> div .features').css('height',$tallestCol);
-		});
-	}
+
 /* ==================================================
    Init Functions
 ================================================== */
 $(document).ready(function(){
-	TEMPLATE.ContactForm();
 	TEMPLATE.scrollToTop();
-	TEMPLATE.accordion();
 	TEMPLATE.toggle();
-	TEMPLATE.toolTip();
-	TEMPLATE.OwlCarousel();
 	TEMPLATE.SuperFish();
-	TEMPLATE.Counters();
 	TEMPLATE.IsoTope();
 	TEMPLATE.StickyHeader();
-	TEMPLATE.textflex();
-	TEMPLATE.heroflex();
-	TEMPLATE.galleryflex();
-	TEMPLATE.pricingTable();
 	$('.selectpicker').selectpicker({container:'body'});
 	WWHGetter();
 
@@ -626,76 +383,11 @@ $(".main-navigation .navbar-header a").on("click", function(e){
 	  });
 	});
 
-	// custom filters for owl carousel
-    var options = {
-        navigation: true,
-        pagination: false
-    };
-    $("#custom-owl-slider").owlCarousel(options);
-
-    function showProjectsbyCat(cat) {
-        var owl = $("#custom-owl-slider").data('owlCarousel');
-
-        owl.addItem('<div/>', 0);
-
-        var nb = owl.itemsAmount;
-        for (var i = 0; i < (nb - 1); i++) {
-            owl.removeItem(1);
-        }
-
-        if (cat == 'all') {
-            $('#custom-owl-copy .custom-owl-item').each(function () {
-                owl.addItem($(this).clone());
-            });
-        } else {
-            $('#custom-owl-copy .custom-owl-item.' + cat).each(function () {
-                owl.addItem($(this).clone());
-            });
-        }
-        owl.removeItem(0);
-    }
-    $('#custom-owl-slider .custom-owl-item').clone().appendTo($('#custom-owl-copy'));
-    $('#custom-owl-filters a').on("click", function (e) {
-		e.preventDefault();
-        $('#custom-owl-filters a').removeClass('owl-active');
-
-        cat = $(this).attr('ID');
-        $(this).addClass('owl-active');
-        showProjectsbyCat(cat);
-		$('#custom-owl-slider .owl-buttons .owl-prev').prepend(' <i class="fa fa-angle-left"></i> ');
-		$('#custom-owl-slider .owl-buttons .owl-next').append(' <i class="fa fa-angle-right"></i>');
-    });
-		$('#custom-owl-slider .owl-buttons .owl-prev').prepend(' <i class="fa fa-angle-left"></i> ');
-		$('#custom-owl-slider .owl-buttons .owl-next').append(' <i class="fa fa-angle-right"></i>');
-
 	$('.selectpicker').selectpicker();
-
-	 // Thumbnail Flex slider
- 	$('.thumbnail-flexslider').flexslider({
-    animation: "slide",
-    controlNav: "thumbnails",
-	prevText:"",
-	nextText:"",
-  });
 
 
 	//LOCAL SCROLL
 	jQuery('.scrollnav').localScroll({
 		offset: -60
 	});
-
-	var sections = jQuery('section');
-	var navigation_links = jQuery('.scrollnav a');
-	sections.waypoint({
-		handler: function(direction) {
-			var active_section;
-			active_section = jQuery(this);
-			if (direction === "up") active_section = active_section.prev();
-			var active_link = jQuery('.scrollnav a[href="#' + active_section.attr("id") + '"]');
-			navigation_links.removeClass("current");
-			active_link.addClass("current").delay(1500);
-		},
-		offset: 150
-	});
-
 });
