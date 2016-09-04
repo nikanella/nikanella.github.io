@@ -17,7 +17,7 @@ list:
     thumbs_title: 'Aggeladakis'
     home_page_title_color: '#fff'
     path: "aggeladakis"
-    description: 'Aggeladakis is an importing company specialized in tiles, natural stones and sanitary ware. They are representatives of many premium Italian manufacturers. We designed the corporate identity, several print promotional items and the company website. You can visit the site here.'
+    description: 'Aggeladakis is an importing company specialized in tiles, natural stones and sanitary ware. They are representatives of many premium Italian manufacturers. We designed the corporate identity, several print promotional items and the company website.<br />You can visit the website <a href="http://aggeladakis.gr/" target="_blank">here</a>.'
     metadata:
       year: '2016'
       client: 'Aggeladakis material concept'
@@ -183,7 +183,7 @@ list:
     thumbs_title: 'MVA'
     home_page_title_color: '#fff'
     path: "mva"
-    description: 'Μaria Vidali Architect is based in Athens​. She​ carries out projects of different scale, which range from product design, furniture design, interior design, individual houses, commercial spaces, building refurbishment and landscape design, including research work. The website was designed and developed highlighting the three different design ​areas​. It includes a custom CMS, and a responsive interface.'
+    description: 'Μaria Vidali Architect is based in Athens​. She​ carries out projects of different scale, which range from product design, furniture design, interior design, individual houses, commercial spaces, building refurbishment and landscape design, including research work. The website was designed and developed highlighting the three different design ​areas​. It includes a custom CMS, and a responsive interface.<br />You can visit the website <a href="http://mariavidali.com/" target="_blank">here</a>.'
     metadata:
       year: '2014'
       client: 'Maria Vidali'
@@ -197,14 +197,13 @@ list:
     thumbs_title: 'Steps in non-places'
     home_page_title_color: '#000'
     path: "stepsinnonplaces"
-    description: '“Steps in non-places” presents the narrative of a character’s perpetual wandering within a new space that is composed dynamically through the use of cinematic language and algorithmic logic. The generation of the new space is based on a non-linear composition of cinematic fragments that transcribe a character’s movements within isolated spaces of public buildings. The composition is realized by an algorithm that includes rules that define the possibilities of succession between the fragments and can produce multiple alternative narratives. The execution of the algorithm generates a narration that is reproduced cinematically, while the corresponding spaces and movements are dynamically visualized in a three- dimensional graphic environment. Physical space does not allow the realization of the generated intricate space and movements, but virtual space makes possible their representation as a sculptural form of spatial nebulae penetrated by a continuous three- dimensional linear stroke. The project addresses a dual aspect of rationality. The produced narratives reveal the actions of a programmed man, a man-machine who ceaselessly performs movements in space traversing the built environment, a man programmed not to stop before reaching his target. However, when the target constantly fluctuates and the spaces are structured differently on every occasion, a distortion of reality emerges, where rationality loses ground.'
+    description: 'Installation with real time generated video (based on 146 video clips source) and 3d animation via Processing
+    programming language.<br /><br />“Steps in non-places” presents the narrative of a character’s perpetual wandering within a new space that is composed dynamically through the use of cinematic language and algorithmic logic. The generation of the new space is based on a non-linear composition of cinematic fragments that transcribe a character’s movements within isolated spaces of public buildings. The composition is realized by an algorithm that includes rules that define the possibilities of succession between the fragments and can produce multiple alternative narratives. The execution of the algorithm generates a narration that is reproduced cinematically, while the corresponding spaces and movements are dynamically visualized in a three- dimensional graphic environment. Physical space does not allow the realization of the generated intricate space and movements, but virtual space makes possible their representation as a sculptural form of spatial nebulae penetrated by a continuous three- dimensional linear stroke. The project addresses a dual aspect of rationality. The produced narratives reveal the actions of a programmed man, a man-machine who ceaselessly performs movements in space traversing the built environment, a man programmed not to stop before reaching his target. However, when the target constantly fluctuates and the spaces are structured differently on every occasion, a distortion of reality emerges, where rationality loses ground.'
     metadata:
-      category: 'Installation with real time generated video (based on 146 video clips source) and 3d animation via Processing
-      programming language'
       year: '2012'
       duration: ∞
       in collaboration with: 'Tassos Kanellos'
-      exhibited in: 'Back to Athens 3, Dialogue# 4 - The Space and the familiar'
+      exhibited in: '<a href="https://dialogoskeetkampa.wordpress.com/2013/06/21/4/" target="_blank">Dialogue#4-The Space and the familiar 2013</a>, <a href="http://cheapart.gr/back-to-athens-2014/" target="_blank">Back to Athens 2014</a>.'
     categories:
       - 'Audiovisual'
     videos:
@@ -229,7 +228,7 @@ list:
     thumbs_title: 'CYD'
     home_page_title_color: '#fff'
     path: "cyd"
-    description: 'CruiseYourDay is a new luxury cruising service. It offers a Full or Half Day services to the islands of the Argosaronic Gulf as well as Customized Itinerary upon request. We developed the website design, a Cruising booking CMS, a Responsive Interface and a full page video background.'
+    description: 'CruiseYourDay is a new luxury cruising service. It offers a Full or Half Day services to the islands of the Argosaronic Gulf as well as Customized Itinerary upon request. We developed the website design, a Cruising booking CMS, a Responsive Interface and a full page video background.<br />You can visit the website <a href="http://cruiseyourday.gr/" target="_blank">here</a>.'
     metadata:
       year: '2014'
       client: 'Cruise Your Day'
