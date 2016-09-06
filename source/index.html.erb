@@ -2,24 +2,10 @@
 <%= content_for(:description, 'Cinnamon.design is a design studio based in Athens, founded by Nikoletta Kanellou.') %>
 
 <div class="scroll-navigation"></div>
-<div class="body home-body">
-    <section class="page-section portfolio-full-width">
-				<div class="portfolio-item caption-wrapper margin-60">
-						<div class="caption-absolute-center">
-								<div class="caption-inner-center home-page-header">
-									<h1>
-										Hi! I'm Nikoletta.
-									</h1>
-									<h2>
-										Here you can find a sample of my <a href="/projects.html">work</a>.
-									</h2>
-									<div class="categories-block">
-										<% categories.each_with_index do |category, index| %>
-											<a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
-										<% end %>
-									</div>
-								</div>
-						</div>
-				</div>
-    </section>
+<div class="body">
+    <%= partial "partials/home" %>
+    <div class="spacer-100"></div>
+    <%= partial "partials/gallery" %>
+    <div class="spacer-100"></div>
+    <%= partial "partials/about" %>
 </div>

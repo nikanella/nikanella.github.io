@@ -1,0 +1,19 @@
+<section class="page-section portfolio-full-width home-body">
+    <div class="portfolio-item caption-wrapper">
+        <div class="caption-absolute-center">
+            <div class="caption-inner-center home-page-header">
+              <h1>
+                Hi! I'm <a href="/about.html">Nikoletta</a>.
+              </h1>
+              <h2>
+                Here you can find a sample of my <a href="/projects.html">work</a>.
+              </h2>
+              <div class="categories-block">
+                <% categories.each_with_index do |category, index| %>
+                  <a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
+                <% end %>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -2023,7 +2023,7 @@ body{
 /* dinesh */
 
 .body{
-	padding:60px;
+	padding:50px 60px;
 	width:100%;
 	height:100%;
 }
@@ -2824,12 +2824,11 @@ ul.dot-pagination li a:hover, ul.dot-pagination li.active a{
 }
 /* portfolio-full-width */
 .portfolio-full-width h1{
-	font-size:60px;
-	letter-spacing:4px;
+	font-size:45px;
 	color:#000000;
 }
 .portfolio-full-width h2{
-	font-size:50px;
+	font-size:45px;
 }
 .portfolio-full-width .categories-block{
 	font-size:16px;
@@ -4675,10 +4674,10 @@ header-style-1.pricing-column.highlight h3 {
 		margin-right:25px;
 	}
 	.portfolio-full-width h1{
-		font-size:50px;
+		font-size:40px;
 	}
 	.portfolio-full-width h2{
-		font-size:30px;
+		font-size:40px;
 	}
 	.page-title-description {
 		padding-right:30px;
@@ -4870,11 +4869,12 @@ header-style-1.pricing-column.highlight h3 {
 		min-height:350px;
 	}
 	.portfolio-full-width h1{
-		font-size:40px;
+		font-size:30px;
 		letter-spacing:1px;
 	}
 	.portfolio-full-width h2{
-		font-size:20px;
+		font-size:30px;
+		padding-bottom: 15%;
 	}
 	.portfolio-full-width .categories-block{
 		font-size:14px;
@@ -5404,7 +5404,7 @@ header-style-1.pricing-column.highlight h3 {
 .home-page-header a,
 .home-page-header span {
 	color: #ffffff !important;
-	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .home-page-header .categories-block a:hover {
@@ -5420,8 +5420,8 @@ header-style-1.pricing-column.highlight h3 {
 }
 
 .home-page-header h2 {
-	padding-top: 2%;
-	margin-bottom: 2%;
+	padding-top: 1%;
+	margin-bottom: 4%;
 
 	@media only screen and (max-width: 992px) {
 		padding-top: 5%;
@@ -5429,6 +5429,7 @@ header-style-1.pricing-column.highlight h3 {
 	}
 }
 
+.home-page-header h1 a,
 .home-page-header h2 a {
 	text-decoration: underline;
 }
@@ -5436,4 +5437,5 @@ header-style-1.pricing-column.highlight h3 {
 .home-body {
 	background: url('/images/homepage.jpg');
 	background-size: cover;
+	height: 100%;
 }

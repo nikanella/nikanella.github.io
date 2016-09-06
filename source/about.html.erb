@@ -2,27 +2,5 @@
 <%= content_for(:description, 'Nikoletta Kanellou is an Architech and Designer based in Athens, Greece.') %>
 
 <div class="body about-page">
-  <div class="container-fluid">
-      <div class="row">
-          <article class="col-md-12">
-            <h1>About</h1>
-            <p>Hi, my name is Nikoletta Kanellou. I live in Athens, Greece and cinnamon.design is the design side of me.</p>
-            <p>I graduated from the NTUA School of Architecture in 2007 and have an MA in Digital Arts, from the Athens School of Fine Arts (2011).</p>
-            <p>I worked as an architect for a few years but soon developed an interest in digital media and got involved in various digital productions, focusing mainly in web design.</p>
-            <p>My architectural and multimedia work has been awarded and presented in several architecture and art exhibitions. As a team member, I received the "Best project of the years 2009-2013" award from DOMÉS International Review of Architecture.</p>
-            <p>I find many similarities between architecture and web design and I enjoy applying architectural synthesis and structure principles in the digital and physical space.</p>
-          </article>
-      </div>
-      <div class="row">
-        <article class="col-md-6">
-          <h1>Selected Press</h1>
-          <ul>
-            <% data.press.list.sort{|x,y| x.name <=> y.name } .each do |entry| %>
-              <li><%= link_to entry.name, entry.link, { target: '_blank' } %></li>
-            <% end %>
-          </ul>
-        </article>
-      </div>
-      <div class="spacer-100"></div>
-  </div>
+  <%= partial "partials/about" %>
 </div>
