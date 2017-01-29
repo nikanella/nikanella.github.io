@@ -2831,7 +2831,7 @@ ul.dot-pagination li a:hover, ul.dot-pagination li.active a{
 	font-size:45px;
 }
 .portfolio-full-width .categories-block{
-	font-size:16px;
+	font-size:17px !important;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
@@ -5399,45 +5399,46 @@ header-style-1.pricing-column.highlight h3 {
 		margin: 0 0 40px 0;
 	}
 }
-.home-page-header h1,
-.home-page-header h2,
-.home-page-header a,
-.home-page-header span {
-	color: #ffffff !important;
-	font-weight: 400;
-}
-
-.home-page-header .categories-block a:hover {
-	text-decoration: underline;
-}
-
-.home-page-header h1 {
-	padding-top: 20%;
-
-	@media only screen and (max-width: 992px) {
-		padding-top: 40%;
-	}
-}
-
-.home-page-header h2 {
-	padding-top: 1%;
-	margin-bottom: 4%;
-
-	@media only screen and (max-width: 992px) {
-		padding-top: 5%;
-		margin-bottom: 5%;
-	}
-}
-
-.home-page-header h1 a,
-.home-page-header h2 a {
-	text-decoration: underline;
-}
 
 .home-body {
-	background: url('/images/homepage.jpg');
-	background-size: cover;
-	height: 100%;
+  background: linear-gradient(90deg, #86baab, #afd1b6);
+	min-height: 100%;
+  text-align: left;
+  padding: 0 8vmin 5vmin;
+}
+
+.home-body h1 {
+  padding-top: 15vmin;
+}
+
+.home-body * {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.home-body a {
+  color: #d8ffdd;
+}
+
+.home-body .categories-block {
+  margin-top: 2vmin;
+}
+
+.home-body .categories-block a,
+.home-body .categories-block span {
+	font-size: 17px;
+  line-height: 25px;
+  color: #d8ffdd;
 }
 
 .gallery.container {

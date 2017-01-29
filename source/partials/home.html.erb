@@ -1,19 +1,13 @@
-<section class="page-section portfolio-full-width home-body">
-    <div class="portfolio-item caption-wrapper">
-        <div class="caption-absolute-center">
-            <div class="caption-inner-center home-page-header">
-              <h1>
-                Hi There! I am <a href="/about.html">Nikoletta Kanellou</a>.
-              </h1>
-              <h2>
-                Here you can find a sample of my <a href="/projects.html">work</a>.
-              </h2>
-              <div class="categories-block">
-                <% categories.each_with_index do |category, index| %>
-                  <a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
-                <% end %>
-              </div>
-            </div>
-        </div>
-    </div>
+<section class="home-body">
+  <h1>
+    Hi there!<br />
+    I am <a href="/about.html">Nikoletta Kanellou,</a>
+  </h1>
+  <p>An Athens based designer.</p>
+  <p>Here you can have <br /> a look on my <a href="/projects.html">work</a><br /> or just <a href="mailto:nikanellou@gmal.com">say hello</a></p>
+  <div class="categories-block">
+    <% categories.each_with_index do |category, index| %>
+      <a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
+    <% end %>
+  </div>
 </section>
