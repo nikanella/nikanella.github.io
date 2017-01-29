@@ -1364,7 +1364,7 @@ html[xmlns] .slides {
 	width:50%;
 }
 .sort-destination.grid-3-col li{
-	width:33%;
+	width:33.33%;
 }
 .sort-destination.grid-4-col li{
 	width:25%;
@@ -5438,4 +5438,9 @@ header-style-1.pricing-column.highlight h3 {
 	background: url('/images/homepage.jpg');
 	background-size: cover;
 	height: 100%;
+}
+
+.gallery.container {
+  width: 100%;
+  padding: 0;
 }
