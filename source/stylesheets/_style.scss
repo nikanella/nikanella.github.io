@@ -5441,6 +5441,9 @@ header-style-1.pricing-column.highlight h3 {
 }
 
 .home-body {
+  &, p {
+    font-family: 'Montserrat', sans-serif;
+  }
   background: linear-gradient(90deg, #86baab, #afd1b6);
 	min-height: 100%;
   text-align: left;
