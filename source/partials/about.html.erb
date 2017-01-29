@@ -1,23 +1,29 @@
+<div class="scroll-navigation"></div>
 <div class="about-page">
   <div class="container-fluid">
       <div class="row">
-          <article class="col-md-12">
-            <h1>About</h1>
-            <p>Hi, my name is Nikoletta Kanellou. I live in Athens, Greece and cinnamon.design is the design side of me.</p>
-            <p>My academic background includes a Diploma in Architecture from the NTUA School of Architecture and an MA in Digital Arts from the Athens School of Fine Arts.</p>
-            <p>I started working as an architect but soon developed an interest in digital media and got involved in various digital productions, focusing mainly in web design.</p>
-            <p>My architectural and multimedia work has been awarded and presented in several architecture and art exhibitions. As a team member, I received the "Best project of the years 2009-2013" award from DOMÉS International Review of Architecture.</p>
-            <p>I find many similarities between architecture and web/application design and I enjoy applying the principles of structure and form/function synthesis in the digital and physical space.</p>
-          </article>
-      </div>
-      <div class="row">
-        <article class="col-md-6">
-          <h1>Selected Press</h1>
+        <article class="col-md-12">
+          <h1>Hi There!</h1>
+          <p>Hi, my name is Nikoletta Kanellou. I live in Athens, Greece and cinnamon.design is the design side of me.</p>
+          <p>My academic background includes a Diploma in Architecture from the NTUA School of Architecture and an MA in Digital Arts from the Athens School of Fine Arts.</p>
+          <p>I started working as an architect but soon developed an interest in digital media and got involved in various digital productions, focusing mainly in web design.</p>
+          <p>My architectural and multimedia work has been awarded and presented in several architecture and art exhibitions. As a team member, I received the "Best project of the years 2009-2013" award from DOMÉS International Review of Architecture.</p>
+          <p>I find many similarities between architecture and web/application design and I enjoy applying the principles of structure and form/function synthesis in the digital and physical space.</p>
+        </article>
+        <article class="col-md-12">
+          <h3>Selected Exhibitions and Awards</h3>
           <ul>
             <% data.press.list.sort{|x,y| x.name <=> y.name } .each do |entry| %>
               <li><%= link_to entry.name, entry.link, { target: '_blank' } %></li>
             <% end %>
           </ul>
+          <p class="contant-details">
+            <a href="mailto:nikanellou@gmail.com">nikanellou@gmail.com</a>
+            <span>|</span>
+            <span>+39 6945414705</span>
+            <span>|</span>
+            <span>Nikiou 6, Athens 10545</span>
+          </p>
         </article>
       </div>
       <div class="spacer-100"></div>
