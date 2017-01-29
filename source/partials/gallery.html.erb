@@ -16,6 +16,11 @@
                   <a href="/projects/<%= project.path %>.html" class="media-box">
                     <img src="/images/projects/<%= project.id %>/thumb.jpg" alt="<%= project.title %>">
                     <h3><%= project.thumbs_title %></h3>
+                    <ul>
+                      <% project.categories.each do |category| %>
+                        <li><%= category %></li>
+                      <% end %>
+                    </ul>
                   </a>
                 </div>
               </li>
