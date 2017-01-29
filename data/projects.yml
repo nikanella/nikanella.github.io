@@ -1,4 +1,18 @@
 list:
+  - id: "people"
+    title: 'People'
+    thumbs_title: 'People'
+    home_page_title_color: '#fff'
+    path: "people"
+    description: 'The Athens Ethnographic Film Festival provides a platform to young filmmakers, anthropologists and social scientists so as to showcase their work, while at the same time seeking the continuation of the course of young auteurs, as well as the roots of ethnographic cinema.<br />You can visit an interactive prototype of the project <a href="https://projects.invisionapp.com/share/PK7RXJ24V#/screens/169760363" target="_blank">here</a>.'
+    metadata:
+      year: '2016 - work in progress'
+      client: 'Athens Ethnographic Film Festival'
+      in collaboration with: 'George Skarmoutsos, Apostolis Troulitakis'
+    categories:
+      - 'UI/UX'
+      - 'Print'
+
   - id: "ethnofest"
     title: 'Ethnofest'
     thumbs_title: 'Ethnofest'
@@ -10,7 +24,19 @@ list:
       client: 'Athens Ethnographic Film Festival'
       in collaboration with: 'George Skarmoutsos, Apostolis Troulitakis'
     categories:
-    - 'Website'
+      - 'UI/UX'
+      - 'Print'
+
+  - id: "dailydiet"
+    title: 'Dailydiet'
+    thumbs_title: 'Dailydiet'
+    home_page_title_color: '#fff'
+    path: "dailydiet"
+    description: 'Cal up is a mobile calendar application with a variety of features, including various views (day, week, month, year).'
+    metadata:
+      year: '2016'
+    categories:
+      - 'UI/UX'
 
   - id: "aggeladakis"
     title: 'Aggeladakis'
@@ -22,34 +48,9 @@ list:
       year: '2016'
       client: 'Aggeladakis material concept'
     categories:
-    - 'Identity'
-    - 'Website'
-
-  - id: "plaisio-service"
-    title: 'Plaisio Service'
-    thumbs_title: 'Plaisio Service'
-    home_page_title_color: '#fff'
-    path: "plaisio-service"
-    description: 'Plaisio Computers SA is a Greece-based company that assembles and trades PCs, telecommunication and office Equipment and simultaneously offers device-service to their clients. We designed the service website of Plaisio Computers, a service which helps the customers repair their device quickly and effectively. We also did a photo and video shooting of their facilities, in order to use it for the purposes of the website.'
-    metadata:
-      year: '2016'
-      client: 'Plaisio Computers SA'
-      in collaboration with: 'George Skarmoutsos, George Biris'
-    categories:
-      - 'Website'
-
-  - id: "wearables-landing"
-    title: 'Wearables'
-    thumbs_title: 'Wearables'
-    home_page_title_color: '#fff'
-    path: "wearables-landing"
-    description: 'Wearables is a promo landing page we designed and developed​.'
-    metadata:
-      year: '2016'
-      client: 'Plaisio Computers SA'
-      in collaboration with: 'Apostolis Troulitakis'
-    categories:
-      - 'Website'
+      - 'Identity'
+      - 'UI/UX'
+      - 'Print'
 
   - id: "frogs"
     title: 'Frogs'
@@ -63,18 +64,28 @@ list:
     categories:
       - 'Architecture'
 
-  - id: "drones-landing"
-    title: 'Drones'
-    thumbs_title: 'Drones'
+  - id: "pentelica"
+    title: 'Pentelica'
+    thumbs_title: 'Pentelica'
     home_page_title_color: '#fff'
-    path: "drones-landing"
-    description: 'Drones-landing is a promo landing page we designed and developed​.'
+    path: "pentelica"
+    description: 'The main inspiration was the vein patterning of leafs, a geometry close enough to the architecture of the pharmacy building.'
     metadata:
       year: '2016'
-      client: 'Plaisio Computers'
-      in collaboration with: 'Apostolis Troulitakis'
+      in collaboration with: 'Ilias Pitsios'
     categories:
-      - 'Website'
+      - 'Identity'
+
+  - id: "calup"
+    title: 'Calup'
+    thumbs_title: 'Calup'
+    home_page_title_color: '#fff'
+    path: "calup"
+    description: 'The Daily Diet app is a calorie counter app. It is designed to help lose weight in a healthy and personalized way.'
+    metadata:
+      year: '2016'
+    categories:
+      - 'UI/UX'
 
   - id: "amco"
     title: 'Amco'
@@ -89,18 +100,31 @@ list:
     categories:
       - 'Architecture'
 
-  - id: "surface-landing"
-    title: 'Surface'
-    thumbs_title: 'Surface'
+  - id: "plaisio-service"
+    title: 'Plaisio Service'
+    thumbs_title: 'Plaisio Service'
     home_page_title_color: '#fff'
-    path: "surface-landing"
-    description: 'Wearables is a promo landing page we designed and developed​.'
+    path: "plaisio-service"
+    description: 'Plaisio Computers SA is a Greece-based company that assembles and trades PCs, telecommunication and office Equipment and simultaneously offers device-service to their clients. We designed the service website of Plaisio Computers, a service which helps the customers repair their device quickly and effectively. We also did a photo and video shooting of their facilities, in order to use it for the purposes of the website.'
     metadata:
-      year: '2016'
+      year: '2015'
+      client: 'Plaisio Computers SA'
+      in collaboration with: 'George Skarmoutsos, George Biris'
+    categories:
+      - 'UI/UX'
+
+  - id: "plaisio-landing"
+    title: 'Plaisio landing'
+    thumbs_title: 'plaisio-landing'
+    home_page_title_color: '#fff'
+    path: "plaisio-landing"
+    description: 'Surface, Wearables and Drones are three promo landing pages we designed and developed​.'
+    metadata:
+      year: '2015'
       client: 'Plaisio Computers SA'
       in collaboration with: 'Apostolis Troulitakis'
     categories:
-      - 'Website'
+      - 'UI/UX'
 
   - id: "paolita"
     title: 'Paolita'
@@ -110,7 +134,7 @@ list:
     metadata:
       year: '2015'
     categories:
-      - 'Wireframes'
+      - 'UI/UX'
 
   - id: "aggelos-giakis"
     title: 'Aggelos Giakis'
@@ -124,18 +148,6 @@ list:
     categories:
       - 'Identity'
 
-  - id: "villabeat"
-    title: 'Villabeat'
-    thumbs_title: 'Villabeat'
-    home_page_title_color: '#fff'
-    path: "villabeat"
-    description: 'Villabeat is a Greek travel & tourism company based in Athens and regulated by the Greek National Tourism Organization. Villabeat provides high quality hospitality in five stars villas in Greece. We developed the website design, a Villa booking CMS, a Responsive Interface and a full page video background.'
-    metadata:
-      year: '2014'
-      client: 'Villabeat'
-      in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou'
-    categories:
-      - 'Website'
 
   - id: "qzine"
     title: 'Qzine'
@@ -146,7 +158,7 @@ list:
     metadata:
       year: '2015'
     categories:
-      - 'Wireframes'
+      - 'UI/UX'
 
   - id: "atrium"
     title: 'Atrium'
@@ -160,6 +172,7 @@ list:
       in collaboration with: 'George Skarmoutsos'
     categories:
       - 'Identity'
+      - 'Print'
 
   - id: "jal"
     title: 'Jal Consulting'
@@ -190,7 +203,7 @@ list:
       in collaboration with: 'Nikos Gereoudakis, Dora Belegrinou'
     categories:
       - 'Identity'
-      - 'Website'
+      - 'UI/UX'
 
   - id: "stepsinnonplaces"
     title: 'Steps in non-places'
@@ -223,19 +236,6 @@ list:
     categories:
       - 'Architecture'
 
-  - id: "cyd"
-    title: 'CYD'
-    thumbs_title: 'CYD'
-    home_page_title_color: '#fff'
-    path: "cyd"
-    description: 'CruiseYourDay is a new luxury cruising service. It offers a Full or Half Day services to the islands of the Argosaronic Gulf as well as Customized Itinerary upon request. We developed the website design, a Cruising booking CMS, a Responsive Interface and a full page video background.<br />You can visit the website <a href="http://cruiseyourday.gr/" target="_blank">here</a>.'
-    metadata:
-      year: '2014'
-      client: 'Cruise Your Day'
-      in collaboration with: 'Nikos Gereoudakis'
-    categories:
-      - 'Website'
-
   - id: "olp"
     title: 'Museum of underwater antiquities'
     thumbs_title: 'OLP'
@@ -261,6 +261,7 @@ list:
       client: 'Euruko'
     categories:
       - 'Audiovisual'
+      - 'Print'
     videos:
       - 'https://vimeo.com/67073706'
 
@@ -289,6 +290,7 @@ list:
       client: 'Mathsdance'
     categories:
       - 'Identity'
+      - 'Print'
 
   - id: "faliro"
     title: 'Residence in Palaio Faliro'
@@ -314,4 +316,3 @@ list:
       client: 'Yoga & Budo Center'
     categories:
       - 'Identity'
-      - 'Website'
