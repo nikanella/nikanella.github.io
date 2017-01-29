@@ -1,76 +1,68 @@
 <%= content_for(:title, project.title) if project.title %>
 <%= content_for(:description, project.description) if project.description %>
 
-<div class="body project-page">
-    <div class="container">
-      <div class="col-md-6 margin-80" style="margin-top: 40px;">
-          <div class="caption-left-botto m">
-              <div class="caption-inne r">
-                  <h2 style="margin-bottom: 10px; position:relative; left: -4px;">
-                    <%= project.title %>
-                  </h2>
-                  <div style="font-weight: bold;">
-                  <% project.categories.each_with_index do |category, index| %>
-                    <a style="color: #000; font-size: 14px;" title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != project.categories.size) ? "," : "" %></span>
-                  <% end %>
-                  </div>
-                  <span class="small-black-line-left"></span>
-                  <% if project.description %>
-                  <p class="light-blue-text"><%= project.description %></p>
-                  <% end %>
-                  <% if project.metadata %>
-                    <p class="light-blue-text">
-                      <% project.metadata.each do |key, value| %>
-                      <strong><%= key.capitalize %>:</strong> <%= value %><br/>
-                      <% end %>
-                    </p>
-                  <% end %>
-              </div>
+<div class="body">
+    <div class="project-page">
+      <div class="container">
+        <div class="col-md-6">
+          <h2 style="margin-bottom: 10px; position:relative; left: -4px;">
+            <%= project.title %>
+          </h2>
+          <div class="project-page__categories">
+          <% project.categories.each_with_index do |category, index| %>
+            <a title="<%= category %>" href="/projects.html#<%= category.downcase.gsub('/', '') %>"><%= category %></a><span><%= (index + 1 != project.categories.size) ? "," : "" %></span>
+          <% end %>
           </div>
+          <span class="small-black-line-left"></span>
+          <% if project.metadata %>
+            <p class="project-page__metadata">
+              <% project.metadata.each do |key, value| %>
+              <strong><%= key.capitalize %>:</strong> <%= value %><br/>
+              <% end %>
+            </p>
+          <% end %>
         </div>
+        <div class="col-md-6">
+          <% if project.description %>
+          <p><%= project.description %></p>
+          <% end %>
+        </div>
+      </div>
     </div>
 
-    <div>
-        <div class="container">
-            <% project_images(project.id).each do |imageSrc| %>
-            <section class="row" style="margin-bottom: 1px;">
-                <div class="col-md-12">
-                    <div class="caption-wrapper">
-                        <div class="imgb"> <img src="<%= imageSrc %>" alt=""> </div>
-                    </div>
+    <div class="container">
+        <% project_images(project.id).each do |imageSrc| %>
+        <section class="row" style="margin-bottom: 1px;">
+            <div class="col-md-12">
+                <div class="caption-wrapper">
+                    <div class="imgb"> <img src="<%= imageSrc %>" alt=""> </div>
                 </div>
-            </section>
-            <% end %>
+            </div>
+        </section>
+        <% end %>
 
-            <% if project.videos %>
-            <% project.videos.each do |videoUrl| %>
-            <section class="row" style="margin-bottom: 1px;">
-                <div class="col-md-12">
-                  <% if videoUrl =~ /vimeo/ %>
-                  <div class="videoWrapper">
-                    <iframe src="https://player.vimeo.com/video/<%= videoUrl.match(/\d+$/)[0] %>?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                  </div>
-                  <% else %>
-                  <video autoplay="autoplay" loop="loop" controls="controls" muted="muted">
-                      <source src="<%= videoUrl %>" type="video/mp4">
-                      Your browser does not support the video tag.
-                  </video>
-                  <% end %>
-                </div>
-            </section>
-            <% end %>
-            <% end %>
+        <% if project.videos %>
+        <% project.videos.each do |videoUrl| %>
+        <section class="row" style="margin-bottom: 1px;">
+            <div class="col-md-12">
+              <% if videoUrl =~ /vimeo/ %>
+              <div class="videoWrapper">
+                <iframe src="https://player.vimeo.com/video/<%= videoUrl.match(/\d+$/)[0] %>?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+              <% else %>
+              <video autoplay="autoplay" loop="loop" controls="controls" muted="muted">
+                  <source src="<%= videoUrl %>" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+              <% end %>
+            </div>
+        </section>
+        <% end %>
+        <% end %>
 
-            <div class="spacer-100"></div>
-            <hr class="fw">
-            <section class="row margin-20">
-                <div class="col-md-12">
-                	<h4>PORTFOLIO</h4>
-                </div>
-              	<%= partial "partials/gallery" %>
-            </section>
-        </div>
+        <div class="spacer-100"></div>
+        <hr class="fw">
     </div>
-
+    <%= partial "partials/gallery" %>
     <div class="spacer-100"></div>
 </div>

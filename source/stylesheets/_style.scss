@@ -310,7 +310,7 @@ h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label{
 
 .small-black-line-left:after{
 	content:'';
-	background:#000;
+	background:#fff;
 	width:30px;
 	height:1px;
 	display:block;
@@ -790,7 +790,7 @@ p.meta-data{
 	opacity: 0;
 	font-size: 1em;
 	position: relative;
-	bottom: 10%;
+	top: 55%;
 	transition: opacity .3s ease-in-out;
 	position: absolute;
 	width: 100%;
@@ -1552,6 +1552,27 @@ html[xmlns] .slides {
 .caption-wrapper .caption-wrapper .imgb, .caption-wrapper .imgb img{
 	width:100%;
 	height:auto;
+}
+
+.project-page {
+	background-color: #F2F2ED;
+  padding: 10vmin 0;
+  margin-bottom: 20vmin;
+
+  &, p {
+    color: #000000;
+  }
+}
+
+.project-page__categories {
+  &, a { color: #86BAAB; }
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project-page__metadata {
+  strong { color: #86BAAB; }
 }
 
 .project-page .container {
@@ -5432,7 +5453,6 @@ header-style-1.pricing-column.highlight h3 {
   .contant-details {
     justify-content: space-between;
     display: flex;
-    font-weight: bold;
 
     &, a {
       color: #86BAAB;
