@@ -1,3 +1,4 @@
 #!/bin/sh
 bundle exec rake build
+echo "cinnamondesign.gr" > build/CNAME
 bundle exec rake publish BRANCH_NAME=master
