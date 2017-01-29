@@ -2570,7 +2570,7 @@ body{
 	opacity:1;
 }
 .main-navigation .close:hover{
-	color:#999;
+	color: #86baab;
 }
 .menu-opened .navbar-header .navbar-brand span{
 	opacity:1;
@@ -5484,4 +5484,14 @@ header-style-1.pricing-column.highlight h3 {
 .gallery.container {
   width: 100%;
   padding: 0;
+}
+
+.main-navigation a {
+  &.active, &:hover {
+    color: #86baab;
+  }
+}
+
+.main-navigation .navbar-default .navbar-nav > li > a:hover, .main-navigation .navbar-default .navbar-nav > li > ul > li > a:hover {
+  color: #86baab;
 }
