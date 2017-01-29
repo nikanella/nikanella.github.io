@@ -7,7 +7,7 @@
   <p>Here you can have <br /> a look on my <a href="/projects.html">work</a><br /> or just <a href="mailto:nikanellou@gmal.com">say hello</a></p>
   <div class="categories-block">
     <% categories.each_with_index do |category, index| %>
-      <a title="<%= category %>" href="/projects.html#<%= category.downcase %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
+      <a title="<%= category %>" href="/projects.html#<%= category.downcase.gsub('/', '') %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>
     <% end %>
   </div>
 </section>
