@@ -1,4 +1,8 @@
 #!/bin/sh
 bundle exec rake build
 echo "cinnamondesign.gr" > build/CNAME
-bundle exec rake publish BRANCH_NAME=master
+cd build
+git add .
+git commit -m "deploy"
+git push origin master -f
+cd ..

@@ -4,7 +4,7 @@
     I am <a href="/about.html">Nikoletta Kanellou,</a>
   </h1>
   <p>An Athens based designer.</p>
-  <p>Here you can have <br /> a look on my <a href="/projects.html">work</a><br /> or just <a href="mailto:nikanellou@gmal.com">say hello</a></p>
+  <p>Here you can have <br /> a look on my <a href="/projects.html">work</a><br /> or just <a href="mailto:nikanellou@gmail.com">say hello</a></p>
   <div class="categories-block">
     <% categories.each_with_index do |category, index| %>
       <a title="<%= category %>" href="/projects.html#<%= category.downcase.gsub('/', '') %>"><%= category %></a><span><%= (index + 1 != categories.size) ? "," : "" %></span>

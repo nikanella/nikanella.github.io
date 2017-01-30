@@ -4,11 +4,10 @@ list:
     thumbs_title: 'People'
     home_page_title_color: '#fff'
     path: "people"
-    description: 'The Athens Ethnographic Film Festival provides a platform to young filmmakers, anthropologists and social scientists so as to showcase their work, while at the same time seeking the continuation of the course of young auteurs, as well as the roots of ethnographic cinema.<br />You can visit an interactive prototype of the project <a href="https://projects.invisionapp.com/share/PK7RXJ24V#/screens/169760363" target="_blank">here</a>.'
+    description: 'People Company combines architecture, design, engineering, usability and technology in new, innovative ways. We designed the identity, the corporate website and several print items.'
     metadata:
-      year: '2016 - work in progress'
-      client: 'Athens Ethnographic Film Festival'
-      in collaboration with: 'George Skarmoutsos, Apostolis Troulitakis'
+      year: '2017'
+      client: 'People - live different'
     categories:
       - 'UI/UX'
       - 'Print'
@@ -18,9 +17,9 @@ list:
     thumbs_title: 'Ethnofest'
     home_page_title_color: '#fff'
     path: "ethnofest"
-    description: 'The Athens Ethnographic Film Festival provides a platform to young filmmakers, anthropologists and social scientists so as to showcase their work, while at the same time seeking the continuation of the course of young auteurs, as well as the roots of ethnographic cinema.<br />You can visit an interactive prototype of the project <a href="https://projects.invisionapp.com/share/PK7RXJ24V#/screens/169760363" target="_blank">here</a>.'
+    description: 'The Athens Ethnographic Film Festival provides a platform to young filmmakers, anthropologists and social scientists so as to showcase their work, as well as the roots of ethnographic cinema. We designed the Ethnofest Website, the only platform for visual anthropology in Greece, where we created an innovative database, organized in a way that will facilitate academic research. We also designed the promotional material for the 7th Ethnofest that took place in Athens, on November of 2016.  <br />You can visit the website <a href="http://www.ethnofest.gr/" target="_blank">here</a>.'
     metadata:
-      year: '2016 - work in progress'
+      year: '2016'
       client: 'Athens Ethnographic Film Festival'
       in collaboration with: 'George Skarmoutsos, Apostolis Troulitakis'
     categories:
@@ -32,7 +31,7 @@ list:
     thumbs_title: 'Dailydiet'
     home_page_title_color: '#fff'
     path: "dailydiet"
-    description: 'Cal up is a mobile calendar application with a variety of features, including various views (day, week, month, year).'
+    description:
     metadata:
       year: '2016'
     categories:
@@ -43,7 +42,7 @@ list:
     thumbs_title: 'Aggeladakis'
     home_page_title_color: '#fff'
     path: "aggeladakis"
-    description: 'Aggeladakis is an importing company specialized in tiles, natural stones and sanitary ware. They are representatives of many premium Italian manufacturers. We designed the corporate identity, several print promotional items and the company website.<br />You can visit the website <a href="http://aggeladakis.gr/" target="_blank">here</a>.'
+    description: 'Aggeladakis is an importing company specialized in tiles, natural stones and sanitary ware. They are representatives of many premium Italian manufacturers. We designed the corporate identity, several print promotional items and the company website. <br />You can visit the website <a href="http://aggeladakis.gr/" target="_blank">here</a>.'
     metadata:
       year: '2016'
       client: 'Aggeladakis material concept'
@@ -52,24 +51,26 @@ list:
       - 'UI/UX'
       - 'Print'
 
-  - id: "frogs"
-    title: 'Frogs'
-    thumbs_title: 'Frogs'
+  - id: "amco"
+    title: 'Amco'
+    thumbs_title: 'Amco'
     home_page_title_color: '#fff'
-    path: "frogs"
-    description: 'Frogs is a new cocktail bar we designed, based in Athens, Greece.'
+    path: "amco"
+    description: 'Amco Advanced Technologies is a a leading provider of Mobility systems as well as Electronic Information Display Systems. We designed the exhibition stand for the IT-Trans 2016, an international exhibition that took place in Germany and several print items.'
     metadata:
       year: '2016'
-      in collaboration with: 'Efi Malandrakie'
+      client: 'Amco Advanced Technologies'
+      in collaboration with: 'Peggy Vlassi'
     categories:
       - 'Architecture'
+      - 'Print'
 
   - id: "pentelica"
     title: 'Pentelica'
     thumbs_title: 'Pentelica'
     home_page_title_color: '#fff'
     path: "pentelica"
-    description: 'The main inspiration was the vein patterning of leafs, a geometry close enough to the architecture of the pharmacy building.'
+    description: 'Logo design inspired by the original geometry of the pharmacy building, which closely resembles the vein patterning of leafs.'
     metadata:
       year: '2016'
       in collaboration with: 'Ilias Pitsios'
@@ -81,24 +82,11 @@ list:
     thumbs_title: 'Calup'
     home_page_title_color: '#fff'
     path: "calup"
-    description: 'The Daily Diet app is a calorie counter app. It is designed to help lose weight in a healthy and personalized way.'
+    description:
     metadata:
       year: '2016'
     categories:
       - 'UI/UX'
-
-  - id: "amco"
-    title: 'Amco'
-    thumbs_title: 'Amco'
-    home_page_title_color: '#fff'
-    path: "amco"
-    description: 'Amco Advanced Technologies is a a leading provider of Mobility systems as well as Electronic Information Display Systems. We designed the exhibition stand for the IT-Trans 2016, an international exhibition that took place in Germany.'
-    metadata:
-      year: '2016'
-      client: 'Amco Advanced Technologies'
-      in collaboration with: 'Peggy Vlassi'
-    categories:
-      - 'Architecture'
 
   - id: "plaisio-service"
     title: 'Plaisio Service'
@@ -109,9 +97,33 @@ list:
     metadata:
       year: '2015'
       client: 'Plaisio Computers SA'
-      in collaboration with: 'George Skarmoutsos, George Biris'
+      in collaboration with: 'George Skarmoutsos, George Biris, Vassilis Polychronakis'
     categories:
       - 'UI/UX'
+
+  - id: "frogs"
+    title: 'The Frogs'
+    thumbs_title: 'The Frogs'
+    home_page_title_color: '#fff'
+    path: "frogs"
+    description: 'The Frogs is a new cocktail bar we designed, based in Athens historical center.'
+    metadata:
+      year: '2016'
+      in collaboration with: 'Efi Malandrakie'
+    categories:
+      - 'Architecture'
+
+  - id: "aggelos-giakis"
+    title: 'Aggelos Giakis'
+    thumbs_title: 'Aggelos Giakis'
+    home_page_title_color: '#fff'
+    path: "aggelos-giakis"
+    description: 'Aggelos Giakis is a technical office that covers a wide range of services including design and construction. We designed the corporate identity, several print promotional items and press ads.'
+    metadata:
+      year: '2015'
+      client: 'Aggelos Giakis'
+    categories:
+      - 'Identity'
 
   - id: "plaisio-landing"
     title: 'Plaisio landing'
@@ -136,19 +148,6 @@ list:
     categories:
       - 'UI/UX'
 
-  - id: "aggelos-giakis"
-    title: 'Aggelos Giakis'
-    thumbs_title: 'Aggelos Giakis'
-    home_page_title_color: '#fff'
-    path: "aggelos-giakis"
-    description: 'Aggelos Giakis is a technical office that covers a wide range of services including design and construction. We designed the corporate identity, several print promotional items and press ads.'
-    metadata:
-      year: '2015'
-      client: 'Aggelos Giakis'
-    categories:
-      - 'Identity'
-
-
   - id: "qzine"
     title: 'Qzine'
     thumbs_title: 'Qzine'
@@ -159,20 +158,6 @@ list:
       year: '2015'
     categories:
       - 'UI/UX'
-
-  - id: "atrium"
-    title: 'Atrium'
-    thumbs_title: 'Atrium'
-    home_page_title_color: '#fff'
-    path: "atrium"
-    description: 'Atrium is a new greek bistrot, housed under the skylight of the Herodion Hotel, in the center of Athens.​ The project included brand identity design​ as well as several print applications such as dining, sous plat and an outdoor banner.'
-    metadata:
-      year: '2015'
-      client: 'HP Hotels'
-      in collaboration with: 'George Skarmoutsos'
-    categories:
-      - 'Identity'
-      - 'Print'
 
   - id: "jal"
     title: 'Jal Consulting'
@@ -191,6 +176,20 @@ list:
       - 'https://vimeo.com/89281529'
       - 'https://vimeo.com/89890942'
 
+  - id: "atrium"
+    title: 'Atrium'
+    thumbs_title: 'Atrium'
+    home_page_title_color: '#fff'
+    path: "atrium"
+    description: 'Atrium is a new greek bistrot, housed under the skylight of the Herodion Hotel, in the center of Athens.​ The project included brand identity design​ as well as several print applications such as dining, sous plat and an outdoor banner.'
+    metadata:
+      year: '2014'
+      client: 'HP Hotels'
+      in collaboration with: 'George Skarmoutsos'
+    categories:
+      - 'Identity'
+      - 'Print'
+
   - id: "mva"
     title: 'MVA'
     thumbs_title: 'MVA'
@@ -205,9 +204,22 @@ list:
       - 'Identity'
       - 'UI/UX'
 
+  - id: "mousswn"
+    title: 'Residence on the hill of Filopappou'
+    thumbs_title: 'Mousswn'
+    home_page_title_color: '#fff'
+    path: "mousswn"
+    description:
+    metadata:
+      year: '2014'
+      in collaboration with: 'Dimitris Thomopoulos & Associates Architects'
+      associates: 'Nikoletta Kanellou, Ourania Giavi'
+    categories:
+      - 'Architecture'
+
   - id: "stepsinnonplaces"
     title: 'Steps in non-places'
-    thumbs_title: 'Steps in non-places'
+    thumbs_title: 'Νon-places'
     home_page_title_color: '#000'
     path: "stepsinnonplaces"
     description: 'Installation with real time generated video (based on 146 video clips source) and 3d animation via Processing
@@ -222,19 +234,6 @@ list:
     videos:
       - 'https://vimeo.com/64798982'
       - 'https://vimeo.com/64798983'
-
-  - id: "mousswn"
-    title: 'Residence on the hill of Filopappou'
-    thumbs_title: 'Mousswn'
-    home_page_title_color: '#fff'
-    path: "mousswn"
-    description: ''
-    metadata:
-      year: '2014'
-      in collaboration with: 'Dimitris Thomopoulos & Associates Architects'
-      associates: 'Nikoletta Kanellou, Ourania Giavi'
-    categories:
-      - 'Architecture'
 
   - id: "olp"
     title: 'Museum of underwater antiquities'
@@ -260,17 +259,14 @@ list:
       year: '2013'
       client: 'Euruko'
     categories:
-      - 'Audiovisual'
       - 'Print'
-    videos:
-      - 'https://vimeo.com/67073706'
 
   - id: "gika"
     title: 'Residential building in Filopappou hill'
     thumbs_title: 'Gika'
     home_page_title_color: '#fff'
     path: "gika"
-    description: ''
+    description:
     metadata:
       year: '2009-2011'
       in collaboration with: 'Dimitris Thomopoulos & Associates Architects'
@@ -286,7 +282,7 @@ list:
     path: "mathsdance"
     description: 'Mathsdance is a creative project by Panorea Baka, researching the interaction and symbiotic relation between Mathematics and Dance as well as how maths educators can use creative movement to enrich their mathematics lessons and help students understand mathematical concepts in depth.​ The project included brand identity and design of promotional items.'
     metadata:
-      year: '2014'
+      year: '2013'
       client: 'Mathsdance'
     categories:
       - 'Identity'
@@ -305,14 +301,17 @@ list:
     categories:
       - 'Architecture'
 
-  - id: "yogabudo"
-    title: 'Yoga & Budo Center'
-    thumbs_title: 'Yoga & Budo Center'
+  - id: "organoid"
+    title: 'Organoid'
+    thumbs_title: 'Organoid'
     home_page_title_color: '#fff'
-    path: "yogabudo"
-    description: 'The Yoga & Budo Center is one of the first organi​s​ed professional education efforts in the field of Yoga and Budo and it is based in Athens. ​​We developed the brand identity, the website design and a responsive interface. '
+    path: "organoid"
+    description: 'Multimedia installation consisting of multichannel audio synchronised with multiple projections. Organoid explores space perceived as a living organism, a biological entity, a place of social collectiveness, or even an addition of comprising functions. Through the use of audiovisual media, this installation aims to reconstruct, modulate and creatively transform memories, experiences, and social awareness that space is bearing.'
     metadata:
-      year: '2014'
-      client: 'Yoga & Budo Center'
+      year: '2010'
+      in collaboration with: 'Taxiarchis Diamantopoulos, Nikos Papadakakis, Dimitris Kasapis, Dora Belegrinou, Vasilis Nobilakis, Giannis Panagakos'
+      exhibited in: 'Athens Fringe Festival 2010 and B-fest reloaded 2010'
     categories:
-      - 'Identity'
+      - 'Audiovisual'
+    videos:
+      - 'https://vimeo.com/64534008'
