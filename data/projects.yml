@@ -140,6 +140,7 @@ list:
 
   - id: "paolita"
     title: 'Paolita'
+    description: 'Wireframes for an e-commerce platform.'
     thumbs_title: 'Paolita'
     home_page_title_color: '#fff'
     path: "paolita"
@@ -150,10 +151,10 @@ list:
 
   - id: "qzine"
     title: 'Qzine'
+    description: 'Wireframes for an e-magazine.'
     thumbs_title: 'Qzine'
     home_page_title_color: '#fff'
     path: "qzine"
-    description:
     metadata:
       year: '2015'
     categories:
@@ -164,7 +165,7 @@ list:
     thumbs_title: 'Jal Consulting'
     home_page_title_color: '#000'
     path: "jal-consulting"
-    description: 'JAL Consulting is a unique consulting firm speciali​zed​ in coaching executives and their teams in producing breakthrough results. It includes executive coaching, business meetings, strategy development and implementation. Fiftypercentgray (alternative name of cinnamon.design) created three video testimonials. (~5 min. each)'
+    description: 'JAL Consulting is a unique consulting firm speciali​zed​ in coaching executives and their teams in producing breakthrough results. It includes executive coaching, business meetings, strategy development and implementation. We created three video testimonials. (~5 min. each)'
     metadata:
       year: '2014'
       client: 'JAL Consulting Ltd.'
