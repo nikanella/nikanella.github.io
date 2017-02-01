@@ -101,43 +101,6 @@ list:
     categories:
       - 'UI/UX'
 
-  - id: "frogs"
-    title: 'The Frogs'
-    thumbs_title: 'The Frogs'
-    home_page_title_color: '#fff'
-    path: "frogs"
-    description: 'The Frogs is a new cocktail bar we designed, based in Athens historical center.'
-    metadata:
-      year: '2016'
-      in collaboration with: 'Efi Malandrakie'
-    categories:
-      - 'Architecture'
-
-  - id: "aggelos-giakis"
-    title: 'Aggelos Giakis'
-    thumbs_title: 'Aggelos Giakis'
-    home_page_title_color: '#fff'
-    path: "aggelos-giakis"
-    description: 'Aggelos Giakis is a technical office that covers a wide range of services including design and construction. We designed the corporate identity, several print promotional items and press ads.'
-    metadata:
-      year: '2015'
-      client: 'Aggelos Giakis'
-    categories:
-      - 'Identity'
-
-  - id: "plaisio-landing"
-    title: 'Plaisio landing'
-    thumbs_title: 'plaisio-landing'
-    home_page_title_color: '#fff'
-    path: "plaisio-landing"
-    description: 'Surface, Wearables and Drones are three promo landing pages we designed and developed​.'
-    metadata:
-      year: '2015'
-      client: 'Plaisio Computers SA'
-      in collaboration with: 'Apostolis Troulitakis'
-    categories:
-      - 'UI/UX'
-
   - id: "paolita"
     title: 'Paolita'
     description: 'Wireframes for an e-commerce platform.'
@@ -158,6 +121,46 @@ list:
     metadata:
       year: '2015'
     categories:
+      - 'UI/UX'
+
+  - id: "plaisio-landing"
+    title: 'Plaisio landing'
+    thumbs_title: 'plaisio-landing'
+    home_page_title_color: '#fff'
+    path: "plaisio-landing"
+    description: 'Surface, Wearables and Drones are three promo landing pages we designed and developed​.'
+    metadata:
+      year: '2015'
+      client: 'Plaisio Computers SA'
+      in collaboration with: 'Apostolis Troulitakis'
+    categories:
+      - 'UI/UX'
+
+  - id: "superstar"
+    title: 'Superstar'
+    thumbs_title: 'Superstar'
+    home_page_title_color: '#fff'
+    path: "superstar"
+    description: 'For the purpose of the superstar store opening, we developed an online campaign and a series of print and rich media ads including Video Prestitial, Interactive Skins and Animated Banners promoting the event.'
+    metadata:
+      year: '2015'
+      client: 'adidas originals'
+      in collaboration with: 'George Skarmoutsos, Thodoris Papakonstantinou'
+    categories:
+      - 'UI/UX'
+
+  - id: "mva"
+    title: 'MVA'
+    thumbs_title: 'MVA'
+    home_page_title_color: '#fff'
+    path: "mva"
+    description: 'Μaria Vidali Architect is based in Athens​. She​ carries out projects of different scale, which range from product design, furniture design, interior design, individual houses, commercial spaces, building refurbishment and landscape design, including research work. The website was designed and developed highlighting the three different design ​areas​. It includes a custom CMS, and a responsive interface.<br />You can visit the website <a href="http://mariavidali.com/" target="_blank">here</a>.'
+    metadata:
+      year: '2014'
+      client: 'Maria Vidali'
+      in collaboration with: 'Nikos Gereoudakis, Dora Belegrinou'
+    categories:
+      - 'Identity'
       - 'UI/UX'
 
   - id: "jal"
@@ -191,20 +194,6 @@ list:
       - 'Identity'
       - 'Print'
 
-  - id: "mva"
-    title: 'MVA'
-    thumbs_title: 'MVA'
-    home_page_title_color: '#fff'
-    path: "mva"
-    description: 'Μaria Vidali Architect is based in Athens​. She​ carries out projects of different scale, which range from product design, furniture design, interior design, individual houses, commercial spaces, building refurbishment and landscape design, including research work. The website was designed and developed highlighting the three different design ​areas​. It includes a custom CMS, and a responsive interface.<br />You can visit the website <a href="http://mariavidali.com/" target="_blank">here</a>.'
-    metadata:
-      year: '2014'
-      client: 'Maria Vidali'
-      in collaboration with: 'Nikos Gereoudakis, Dora Belegrinou'
-    categories:
-      - 'Identity'
-      - 'UI/UX'
-
   - id: "mousswn"
     title: 'Residence on the hill of Filopappou'
     thumbs_title: 'Mousswn'
@@ -217,6 +206,45 @@ list:
       associates: 'Nikoletta Kanellou, Ourania Giavi'
     categories:
       - 'Architecture'
+
+  - id: "euruko2013"
+    title: 'Euruko2013'
+    thumbs_title: 'Euruko2013'
+    home_page_title_color: '#fff'
+    path: "euruko2013"
+    description: 'Promotional product design for the annual European Ruby Conference. EuRuKo (the European Ruby Conference) is an annual conference which focuses on the Ruby programming language, with an informal atmosphere and lots of opportunities to listen, to talk, to hack, to have fun and where delegates experience distinct and insightful content from speakers of the highest calibre.Euruko2013 took place in Athens on the 28th and 29th of June 2013 at the Badminton Theater.'
+    metadata:
+      year: '2013'
+      client: 'Euruko'
+    categories:
+      - 'Print'
+
+  - id: "olp"
+    title: 'Museum of underwater antiquities'
+    thumbs_title: 'OLP'
+    home_page_title_color: '#fff'
+    path: "olp"
+    description: 'International Architectural Competition: Redesign of the existing cereals stock house building facilities (SILO) and its surrounding open space into a Museum for Underwater Antiquities and Regeneration of part of the Piraeus Port Authority (OLP) Coastal Zone - transformation into an open public space for outdoor activities.'
+    metadata:
+      project team: 'Dimitris Thomopoulos, Nikoletta Kanellou, Leda Kremmida, Myrto Matala, Ilias Pitsios, Tassos Kanellos, Manolis Venierakis, Theofilos Zachos'
+      status 1: 'Honorable mention, 2013'
+      status 2: 'Domes 2014 Awards - First Prize for the "Best project of the years 2009-2013'
+      press: 'Archdaily, Archinect, Greekarchitects, Domes 2014 Awards'
+    categories:
+      - 'Architecture'
+
+  - id: "mathsdance"
+    title: 'Mathsdance'
+    thumbs_title: 'Mathsdance'
+    home_page_title_color: '#fff'
+    path: "mathsdance"
+    description: 'Mathsdance is a creative project by Panorea Baka, researching the interaction and symbiotic relation between Mathematics and Dance as well as how maths educators can use creative movement to enrich their mathematics lessons and help students understand mathematical concepts in depth.​ The project included brand identity and design of promotional items.'
+    metadata:
+      year: '2013'
+      client: 'Mathsdance'
+    categories:
+      - 'Identity'
+      - 'Print'
 
   - id: "stepsinnonplaces"
     title: 'Steps in non-places'
@@ -236,31 +264,19 @@ list:
       - 'https://vimeo.com/64798982'
       - 'https://vimeo.com/64798983'
 
-  - id: "olp"
-    title: 'Museum of underwater antiquities'
-    thumbs_title: 'OLP'
+  - id: "osterman"
+    title: 'Osterman bar & dining'
+    thumbs_title: 'Osterman'
     home_page_title_color: '#fff'
-    path: "olp"
-    description: 'International Architectural Competition: Redesign of the existing cereals stock house building facilities (SILO) and its surrounding open space into a Museum for Underwater Antiquities and Regeneration of part of the Piraeus Port Authority (OLP) Coastal Zone - transformation into an open public space for outdoor activities.'
+    path: "osterman"
+    description:
     metadata:
-      project team: 'Dimitris Thomopoulos, Nikoletta Kanellou, Leda Kremmida, Myrto Matala, Ilias Pitsios, Tassos Kanellos, Manolis Venierakis, Theofilos Zachos'
-      status 1: 'Honorable mention, 2013'
-      status 2: 'Domes 2014 Awards - First Prize for the "Best project of the years 2009-2013'
-      press: 'Archdaily, Archinect, Greekarchitects, Domes 2014 Awards'
+      year: '2012'
+      in collaboration with: 'Dimitris Thomopoulos & Associates Architects'
+      associates: 'Nikoletta Kanellou'
+      photographer: 'George Fakaros'
     categories:
       - 'Architecture'
-
-  - id: "euruko2013"
-    title: 'Euruko2013'
-    thumbs_title: 'Euruko2013'
-    home_page_title_color: '#fff'
-    path: "euruko2013"
-    description: 'Promotional product design for the annual European Ruby Conference. EuRuKo (the European Ruby Conference) is an annual conference which focuses on the Ruby programming language, with an informal atmosphere and lots of opportunities to listen, to talk, to hack, to have fun and where delegates experience distinct and insightful content from speakers of the highest calibre.Euruko2013 took place in Athens on the 28th and 29th of June 2013 at the Badminton Theater.'
-    metadata:
-      year: '2013'
-      client: 'Euruko'
-    categories:
-      - 'Print'
 
   - id: "gika"
     title: 'Residential building in Filopappou hill'
@@ -275,19 +291,6 @@ list:
       photographer: 'Caroline May'
     categories:
       - 'Architecture'
-
-  - id: "mathsdance"
-    title: 'Mathsdance'
-    thumbs_title: 'Mathsdance'
-    home_page_title_color: '#fff'
-    path: "mathsdance"
-    description: 'Mathsdance is a creative project by Panorea Baka, researching the interaction and symbiotic relation between Mathematics and Dance as well as how maths educators can use creative movement to enrich their mathematics lessons and help students understand mathematical concepts in depth.​ The project included brand identity and design of promotional items.'
-    metadata:
-      year: '2013'
-      client: 'Mathsdance'
-    categories:
-      - 'Identity'
-      - 'Print'
 
   - id: "faliro"
     title: 'Residence in Palaio Faliro'
