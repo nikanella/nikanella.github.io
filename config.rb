@@ -37,14 +37,12 @@ helpers do
     data.projects.list.map(&:categories).flatten.uniq.sort
   end
 
-  def home_page_projects
-    data.projects.list.select do |project|
-      File.exists? File.expand_path("./source/images/projects/#{project.id}/home.jpg")
-    end
+  def project_images(project_id)
+    Dir["./source/images/projects/#{project_id}/*.{jpg,gif}"].reject {|path| path =~ /(home|thumb).jpg$/}.map {|path| path.gsub("./source", "")}
   end
 
-  def project_images(project_id)
-    Dir["./source/images/projects/#{project_id}/*.jpg"].reject {|path| path =~ /(home|thumb).jpg$/}.map {|path| path.gsub("./source", "")}
+  def public_projects
+    data.projects.list.reject { |p| p.private? }
   end
 end
 

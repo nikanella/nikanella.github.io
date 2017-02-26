@@ -1,5 +1,6 @@
 <%= content_for(:title, project.title) if project.title %>
 <%= content_for(:description, project.description) if project.description %>
+<%= content_for(:meta, '<meta name="robots" content="noindex">') if project.private? %>
 
 <div class="body">
     <div class="project-page">
