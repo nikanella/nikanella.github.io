@@ -319,3 +319,15 @@ list:
       - 'Audiovisual'
     videos:
       - 'https://vimeo.com/64534008'
+
+  - id: "isobar"
+    title: 'Isobar test'
+    private: true
+    thumbs_title: 'Isobar'
+    home_page_title_color: '#000'
+    path: "isobar"
+    description: ''
+    metadata:
+      year: '2017'
+    videos:
+      - 'https://vimeo.com/205868581'

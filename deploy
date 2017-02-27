@@ -4,5 +4,6 @@ echo "cinnamondesign.gr" > build/CNAME
 cd build
 git add .
 git commit -m "deploy"
+git fetch --unshallow
 git push origin master -f
 cd ..

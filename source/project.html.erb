@@ -10,7 +10,7 @@
             <%= project.title %>
           </h2>
           <div class="project-page__categories">
-          <% project.categories.each_with_index do |category, index| %>
+          <% project.respond_to?(:categories) && project.categories.each_with_index do |category, index| %>
             <a title="<%= category %>" href="/projects.html#<%= category.downcase.gsub('/', '') %>"><%= category %></a><span><%= (index + 1 != project.categories.size) ? "," : "" %></span>
           <% end %>
           </div>
@@ -32,7 +32,7 @@
     </div>
 
     <div class="container">
-        <% project_images(project.id).each do |imageSrc| %>
+        <% project_images(project.id).sort.each do |imageSrc| %>
         <section class="row" style="margin-bottom: 1px;">
             <div class="col-md-12">
                 <div class="caption-wrapper">
