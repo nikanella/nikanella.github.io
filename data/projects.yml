@@ -331,3 +331,13 @@ list:
       year: '2017'
     videos:
       - 'https://vimeo.com/205868581'
+
+  - id: "eurobank"
+    title: 'Eurobank test'
+    private: true
+    thumbs_title: 'Eurobank'
+    home_page_title_color: '#000'
+    path: "eurobank"
+    description: ''
+    metadata:
+      year: '2017'
