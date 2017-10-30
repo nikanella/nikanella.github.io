@@ -1,5 +1,5 @@
 <%= content_for(:title, project.title) if project.title %>
-<%= content_for(:description, project.description) if project.description %>
+<%= content_for(:description, project.description.gsub(%r{</?[^>]+?>}, '')) if project.description %>
 <%= content_for(:meta, '<meta name="robots" content="noindex">') if project.private? %>
 
 <div class="body">
@@ -11,7 +11,7 @@
           </h2>
           <div class="project-page__categories">
           <% project.respond_to?(:categories) && project.categories.each_with_index do |category, index| %>
-            <a title="<%= category %>" href="/projects.html#<%= category.downcase.gsub('/', '') %>"><%= category %></a><span><%= (index + 1 != project.categories.size) ? "," : "" %></span>
+            <a title="<%= category %>" href="/projects.html#<%= category.downcase.gsub('/', '').split(' ').join('-') %>"><%= category %></a><span><%= (index + 1 != project.categories.size) ? "," : "" %></span>
           <% end %>
           </div>
           <span class="small-black-line-left"></span>

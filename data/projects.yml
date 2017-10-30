@@ -1,4 +1,17 @@
 list:
+  - id: "yeep"
+    title: 'Yeep'
+    thumbs_title: 'Yeep'
+    home_page_title_color: '#fff'
+    path: "yeep"
+    description: 'Yeep is a web platform that maps which of your users and employees have access to your online services and sensitive data. <br />You can visit it <a href="https://www.yeep.io/" target="_blank">here</a>.'
+    metadata:
+      year: '2017'
+      client: 'Speak Riddles Old Man Ltd'
+    categories:
+      - 'Identity'
+      - 'UI/UX'
+
   - id: "people"
     title: 'People'
     thumbs_title: 'People'
@@ -11,6 +24,32 @@ list:
     categories:
       - 'UI/UX'
       - 'Print'
+
+  - id: "vol5"
+    title: 'VOL.5'
+    thumbs_title: 'VOL.5'
+    home_page_title_color: '#fff'
+    path: "vol5"
+    description: 'Branding & Web design for the new hotel VOL.5 | the minilodge, which is based in the heart of Athens, Greece.  <br />You can visit the website <a href="http://theminilodge.com/?autologin_code=SAYGJlPynIpeLiQQQ1AigWIO3atzsw" target="_blank">here</a>.'
+    metadata:
+      year: '2017'
+      client: 'The minilodge'
+      in collaboration with: 'Apostolis Troulitakis'
+    categories:
+      - 'Identity'
+      - 'UI/UX'
+      - 'Print'
+
+  - id: "dailydiet"
+    title: 'Dailydiet'
+    thumbs_title: 'Dailydiet'
+    home_page_title_color: '#fff'
+    path: "dailydiet"
+    description:
+    metadata:
+      year: '2017'
+    categories:
+      - 'UI/UX'
 
   - id: "ethnofest"
     title: 'Ethnofest'
@@ -26,17 +65,6 @@ list:
       - 'UI/UX'
       - 'Print'
 
-  - id: "dailydiet"
-    title: 'Dailydiet'
-    thumbs_title: 'Dailydiet'
-    home_page_title_color: '#fff'
-    path: "dailydiet"
-    description:
-    metadata:
-      year: '2016'
-    categories:
-      - 'UI/UX'
-
   - id: "aggeladakis"
     title: 'Aggeladakis'
     thumbs_title: 'Aggeladakis'
@@ -51,6 +79,18 @@ list:
       - 'UI/UX'
       - 'Print'
 
+  - id: "pentelica"
+    title: 'Pentelica'
+    thumbs_title: 'Pentelica'
+    home_page_title_color: '#fff'
+    path: "pentelica"
+    description: 'Logo design inspired by the original geometry of the pharmacy building, which closely resembles the vein patterning of leafs.'
+    metadata:
+      year: '2016'
+      in collaboration with: 'Ilias Pitsios'
+    categories:
+      - 'Identity'
+
   - id: "amco"
     title: 'Amco'
     thumbs_title: 'Amco'
@@ -64,18 +104,6 @@ list:
     categories:
       - 'Architecture'
       - 'Print'
-
-  - id: "pentelica"
-    title: 'Pentelica'
-    thumbs_title: 'Pentelica'
-    home_page_title_color: '#fff'
-    path: "pentelica"
-    description: 'Logo design inspired by the original geometry of the pharmacy building, which closely resembles the vein patterning of leafs.'
-    metadata:
-      year: '2016'
-      in collaboration with: 'Ilias Pitsios'
-    categories:
-      - 'Identity'
 
   - id: "calup"
     title: 'Calup'
@@ -163,6 +191,20 @@ list:
       - 'Identity'
       - 'UI/UX'
 
+  - id: "atrium"
+    title: 'Atrium'
+    thumbs_title: 'Atrium'
+    home_page_title_color: '#fff'
+    path: "atrium"
+    description: 'Atrium is a new greek bistrot, housed under the skylight of the Herodion Hotel, in the center of Athens.​ The project included brand identity design​ as well as several print applications such as dining, sous plat and an outdoor banner.'
+    metadata:
+      year: '2014'
+      client: 'HP Hotels'
+      in collaboration with: 'George Skarmoutsos'
+    categories:
+      - 'Identity'
+      - 'Print'
+
   - id: "jal"
     title: 'Jal Consulting'
     thumbs_title: 'Jal Consulting'
@@ -179,20 +221,6 @@ list:
       - 'https://vimeo.com/89008035'
       - 'https://vimeo.com/89281529'
       - 'https://vimeo.com/89890942'
-
-  - id: "atrium"
-    title: 'Atrium'
-    thumbs_title: 'Atrium'
-    home_page_title_color: '#fff'
-    path: "atrium"
-    description: 'Atrium is a new greek bistrot, housed under the skylight of the Herodion Hotel, in the center of Athens.​ The project included brand identity design​ as well as several print applications such as dining, sous plat and an outdoor banner.'
-    metadata:
-      year: '2014'
-      client: 'HP Hotels'
-      in collaboration with: 'George Skarmoutsos'
-    categories:
-      - 'Identity'
-      - 'Print'
 
   - id: "mousswn"
     title: 'Residence on the hill of Filopappou'
@@ -320,24 +348,31 @@ list:
     videos:
       - 'https://vimeo.com/64534008'
 
-  - id: "isobar"
-    title: 'Isobar test'
+  - id: "loreal"
     private: true
-    thumbs_title: 'Isobar'
+    title: "L'oreal"
+    thumbs_title: "L'oreal"
     home_page_title_color: '#000'
-    path: "isobar"
+    path: "loreal"
+    categories:
+      - 'Audiovisual'
+      - 'Social Media'
     description: ''
     metadata:
       year: '2017'
+      client: 'Isobar'
     videos:
       - 'https://vimeo.com/205868581'
 
   - id: "eurobank"
-    title: 'Eurobank test'
     private: true
+    title: 'Eurobank'
     thumbs_title: 'Eurobank'
     home_page_title_color: '#000'
     path: "eurobank"
     description: ''
     metadata:
       year: '2017'
+      client: 'Isobar'
+    categories:
+      - 'Social Media'
